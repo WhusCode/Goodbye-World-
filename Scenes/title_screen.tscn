@@ -1,0 +1,81 @@
+[gd_scene load_steps=6 format=3 uid="uid://cip57pvtwpwfg"]
+
+[ext_resource type="Script" uid="uid://bdvb5rfw4sivc" path="res://Scripts/control.gd" id="1_klylv"]
+[ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://ArtAssets/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
+[ext_resource type="Texture2D" uid="uid://c446sqfy5hbt1" path="res://ArtAssets/UI/unselectedVerNotesButton.jpg" id="3_12m1t"]
+[ext_resource type="Texture2D" uid="uid://bvmfyhycva32b" path="res://ArtAssets/UI/unselectedQuitButton.jpg" id="4_6vd4x"]
+[ext_resource type="Texture2D" uid="uid://csq2krnar0147" path="res://ArtAssets/UI/unselectedCreditsButton.jpg" id="5_n82rj"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_klylv")
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 0
+offset_right = 1922.0
+offset_bottom = 1081.0
+
+[node name="TextureRect" type="TextureRect" parent="Start"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.8
+anchor_bottom = 1.717
+offset_right = -1534.0
+offset_bottom = -773.36
+texture = ExtResource("2_55kwv")
+expand_mode = 3
+
+[node name="VersionNotes" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1696.0
+offset_top = 975.0
+offset_right = 1920.0
+offset_bottom = 1081.0
+
+[node name="TextureRect" type="TextureRect" parent="VersionNotes"]
+layout_mode = 0
+offset_right = 223.0
+offset_bottom = 105.0
+texture = ExtResource("3_12m1t")
+expand_mode = 3
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 853.0
+offset_right = 490.0
+offset_bottom = 1081.0
+
+[node name="TextureRect" type="TextureRect" parent="Quit"]
+layout_mode = 0
+offset_right = 492.0
+offset_bottom = 228.0
+texture = ExtResource("4_6vd4x")
+metadata/_edit_lock_ = true
+
+[node name="Credits" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1695.0
+offset_top = 867.0
+offset_right = 1919.0
+offset_bottom = 973.0
+
+[node name="TextureRect" type="TextureRect" parent="Credits"]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 224.0
+offset_bottom = 106.0
+texture = ExtResource("5_n82rj")
+expand_mode = 3
+
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VersionNotes" to="." method="_on_version_notes_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Credits" to="." method="_on_credits_pressed"]
