@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757450380
+::res://::1757464061
+a.tscn::PackedScene/PackedScene::921868914633236736::1757450429::0::1::::<><><>0<>0<><>::
 ::res://addons/::1757447101
 ::res://addons/colorpicker_presets/::1757447101
 colorpicker_presets.gd::GDScript/GDScript::1552541595286218488::1757447101::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -67,14 +68,14 @@ pine_tree.tscn::PackedScene/PackedScene::6859997317760393197::1757448281::0::1::
 player.tscn::PackedScene/PackedScene::4152455250464021721::1757448281::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://ArtAssets/Tutorial/characters/happy_boo/happy_boo.tscn<>uid://b1gj58c566lta::::res://Scripts/player.gd<>uid://cc18ljx0x3r46::::res://Scenes/gun.tscn
 smoke_explosion.tscn::PackedScene/PackedScene::7675803860678853612::1757448281::0::1::::<><><>0<>0<><>::uid://2exx38xfptt0::::res://ArtAssets/Tutorial/smoke_explosion/smoke_explosion.gdshader<>uid://caujwgi8rl1oi::::res://Scripts/smoke_explosion.gd
 survivorsgame.tscn::PackedScene/PackedScene::8199473297912276296::1757447101::0::1::::<><><>0<>0<><>::uid://ck4r31w6rvj42::::res://Scripts/survivorsgame.gd<>uid://b0fqli8f48rob::::res://Scenes/player.tscn<>uid://by1cx2xb4o785::::res://Scenes/mob.tscn<>uid://c40bfhry6l2ld::::res://Scenes/pine_tree.tscn
-title_screen.tscn::PackedScene::5367197259173740928::1757448842::0::1::::<><><>0<>0<><>::uid://bdvb5rfw4sivc::::res://Scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://ArtAssets/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://c446sqfy5hbt1::::res://ArtAssets/UI/unselectedVerNotesButton.jpg<>uid://bvmfyhycva32b::::res://ArtAssets/UI/unselectedQuitButton.jpg<>uid://csq2krnar0147::::res://ArtAssets/UI/unselectedCreditsButton.jpg
-version_notes.tscn::PackedScene::3376440749496051850::1757449338::0::1::::<><><>0<>0<><>::uid://ch2tlni12dnee::::res://Scripts/version_notes.gd
+title_screen.tscn::PackedScene/PackedScene::5367197259173740928::1757448842::0::1::::<><><>0<>0<><>::uid://bdvb5rfw4sivc::::res://Scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://ArtAssets/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://c446sqfy5hbt1::::res://ArtAssets/UI/unselectedVerNotesButton.jpg<>uid://bvmfyhycva32b::::res://ArtAssets/UI/unselectedQuitButton.jpg<>uid://csq2krnar0147::::res://ArtAssets/UI/unselectedCreditsButton.jpg
+version_notes.tscn::PackedScene/PackedScene::3376440749496051850::1757449338::0::1::::<><><>0<>0<><>::uid://ch2tlni12dnee::::res://Scripts/version_notes.gd
 ::res://Scripts/::1757448575
 bullet.gd::GDScript/GDScript::5698937033947562307::1757447101::0::1::::<>Area2D<><>0<>0<><>::
 control.gd::GDScript/GDScript::2640454339912391884::1757447101::0::1::::<>Control<><>0<>0<><>::
 credits.gd::GDScript/GDScript::5813420752851827492::1757447101::0::1::::<>Control<><>0<>0<><>::
 gun.gd::GDScript/GDScript::5166496377419480507::1757447101::0::1::::<>Area2D<><>0<>0<><>::
-mob.gd::GDScript::6484248489124229214::1757448575::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mob.gd::GDScript/GDScript::6484248489124229214::1757448575::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::4224318649324231258::1757447101::0::1::::<>CharacterBody2D<><>0<>0<><>::
 smoke_explosion.gd::GDScript/GDScript::4814714991889289300::1757447101::0::1::::<>Node2D<><>0<>0<><>::
 survivorsgame.gd::GDScript/GDScript::5535680350765479985::1757447101::0::1::::<>Node2D<><>0<>0<><>::
