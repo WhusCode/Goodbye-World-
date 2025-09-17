@@ -74,11 +74,11 @@ Settings/Show_Tooltips=true
 
 [application]
 
-config/name="1001Tutorial_BulletHell"
+config/name="Goodbye, World!"
 run/main_scene="uid://cip57pvtwpwfg"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/image="uid://cel14070w7bqu"
-config/icon="res://ArtAssets/Tutorial/icon.png"
+config/icon="uid://d3s6fafecdogs"
 boot_splash/minimum_display_time=500
 
 [audio]
