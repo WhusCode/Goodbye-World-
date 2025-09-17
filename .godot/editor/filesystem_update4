@@ -1,2 +1,5 @@
-res://Scenes/title_screen.tscn
-res://Scenes/version_notes.tscn
+res://Scenes/gun.tscn
+res://Scripts/gun.gd
+res://ArtAssets/Tutorial/characters/happy_boo/happy_boo.gd
+res://Scripts/player.gd
+res://Scenes/player.tscn

@@ -1,6 +1,5 @@
-[gd_scene load_steps=17 format=3 uid="uid://b0fqli8f48rob"]
+[gd_scene load_steps=16 format=3 uid="uid://b0fqli8f48rob"]
 
-[ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://ArtAssets/Tutorial/characters/happy_boo/happy_boo.tscn" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://b1gj58c566lta" path="res://Scripts/player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://dmr43dix3noos" path="res://ArtAssets/Sprites/SorenIdle.png" id="2_vgqql"]
 [ext_resource type="PackedScene" uid="uid://cc18ljx0x3r46" path="res://Scenes/gun.tscn" id="3_i3pqv"]
@@ -93,10 +92,6 @@ animation = &"SorenIdle"
 autoplay = "SorenIdle"
 frame = 6
 frame_progress = 0.42826
-
-[node name="HappyBoo" parent="." instance=ExtResource("1_4flbx")]
-unique_name_in_owner = true
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_onrkg")
