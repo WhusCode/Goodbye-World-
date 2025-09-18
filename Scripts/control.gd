@@ -13,8 +13,8 @@ func _on_quit_pressed() -> void:
 
 
 func _on_credits_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/credits.tscn") 
+	get_tree().change_scene_to_file("res://Scenes/917credits.tscn") 
 
 
 func _on_version_notes_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/version_notes.tscn") 
+	get_tree().change_scene_to_file("res://Scenes/917version_notes.tscn") 

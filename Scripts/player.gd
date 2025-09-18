@@ -3,7 +3,7 @@ extends CharacterBody2D
 signal health_depleted
 
 var health = 100.0
-
+@onready var walk_sound = %WalkSound #this won't do anything for now until we set up animations for player char
 
 
 func _physics_process(delta):

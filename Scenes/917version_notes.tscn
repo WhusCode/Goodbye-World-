@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c731iry7yiph0"]
 
-[ext_resource type="Script" uid="uid://ch2tlni12dnee" path="res://Scripts/version_notes.gd" id="1_7i78g"]
+[ext_resource type="Script" uid="uid://ch2tlni12dnee" path="res://Scripts/version_notes.gd" id="1_lbm0w"]
 
 [node name="VersionNotes" type="Control"]
 layout_mode = 3
@@ -9,7 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_7i78g")
+script = ExtResource("1_lbm0w")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
@@ -51,11 +51,10 @@ text = "[center][color=indian_red]Goodbye, World! - Version Notes[/color][/cente
 
 [center][color=indian_red] . . . Version 2.1 (current) . . . [/color][/center]
 [center][color=rosy_brown] Player Sprite Added [/color][/center]
+[center][color=rosy_brown] Walking Audio SFX Temporarily Removed [/color][/center]
 
 [center][color=indian_red] . . . Version 2.0 . . . [/color][/center]
-[center][color=rosy_brown] Files Merged [/color][/center]
 [center][color=rosy_brown] Basic Attacking + Movement Added [/color][/center]
-[center][color=rosy_brown] Enemy Pathfinding Added [/color][/center]
 
 [center][color=indian_red] . . . Version 1.4 . . . [/color][/center]
 [center][color=rosy_brown] Walking Audio SFX Added [/color][/center]

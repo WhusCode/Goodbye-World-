@@ -1,8 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://b0fqli8f48rob"]
+[gd_scene load_steps=17 format=3 uid="uid://b0fqli8f48rob"]
 
 [ext_resource type="Script" uid="uid://b1gj58c566lta" path="res://Scripts/player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://dmr43dix3noos" path="res://ArtAssets/Sprites/SorenIdle.png" id="2_vgqql"]
 [ext_resource type="PackedScene" uid="uid://cc18ljx0x3r46" path="res://Scenes/gun.tscn" id="3_i3pqv"]
+[ext_resource type="AudioStream" uid="uid://c8i1s07cv3s7c" path="res://Audio/walk.wav" id="4_vgqql"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fkybt"]
 atlas = ExtResource("2_vgqql")
@@ -120,3 +121,7 @@ theme_override_styles/background = SubResource("StyleBoxFlat_i3pqv")
 theme_override_styles/fill = SubResource("StyleBoxFlat_hqtel")
 value = 100.0
 show_percentage = false
+
+[node name="WalkSound" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("4_vgqql")
