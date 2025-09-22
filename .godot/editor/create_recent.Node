@@ -1,7 +1,3 @@
-AudioStreamPlayer
-AnimationPlayer
-AnimatedSprite2D
+Camera2D
+Button
 TextureRect
-Label
-ColorRect
-Control

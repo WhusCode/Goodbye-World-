@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://cip57pvtwpwfg"]
+[gd_scene load_steps=6 format=3 uid="uid://xien25b8j6p6"]
 
-[ext_resource type="Script" uid="uid://bdvb5rfw4sivc" path="res://Scripts/control.gd" id="1_klylv"]
-[ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://ArtAssets/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
-[ext_resource type="Texture2D" uid="uid://bmmkm8u4gl604" path="res://ArtAssets/UI/unselectedVerNotesButton.PNG" id="3_55kwv"]
-[ext_resource type="Texture2D" uid="uid://ca2jo5r7a0yrw" path="res://ArtAssets/UI/unselectedQuitButton.PNG" id="4_12m1t"]
-[ext_resource type="Texture2D" uid="uid://bldu1mrbxxq6e" path="res://ArtAssets/UI/unselectedCreditsButton.PNG" id="5_6vd4x"]
+[ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://Scripts/control.gd" id="1_klylv"]
+[ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://art/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
+[ext_resource type="Texture2D" uid="uid://bmmkm8u4gl604" path="res://art/UI/unselectedVerNotesButton.PNG" id="3_55kwv"]
+[ext_resource type="Texture2D" uid="uid://ca2jo5r7a0yrw" path="res://art/UI/unselectedQuitButton.PNG" id="4_12m1t"]
+[ext_resource type="Texture2D" uid="uid://bldu1mrbxxq6e" path="res://art/UI/unselectedCreditsButton.PNG" id="5_6vd4x"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -25,17 +25,17 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.8
 anchor_bottom = 1.717
-offset_right = -1534.0
-offset_bottom = -773.36
+offset_right = -1539.5999
+offset_bottom = -776.077
 texture = ExtResource("2_55kwv")
 expand_mode = 3
 
 [node name="VersionNotes" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1696.0
-offset_top = 975.0
-offset_right = 1920.0
-offset_bottom = 1081.0
+offset_left = 1692.0
+offset_top = 977.0
+offset_right = 1916.0
+offset_bottom = 1083.0
 
 [node name="TextureRect" type="TextureRect" parent="VersionNotes"]
 layout_mode = 0
@@ -43,6 +43,7 @@ offset_right = 223.0
 offset_bottom = 105.0
 texture = ExtResource("3_55kwv")
 expand_mode = 3
+metadata/_edit_lock_ = true
 
 [node name="Quit" type="Button" parent="."]
 layout_mode = 0
@@ -57,13 +58,14 @@ offset_right = 492.0
 offset_bottom = 230.0
 texture = ExtResource("4_12m1t")
 expand_mode = 3
+metadata/_edit_lock_ = true
 
 [node name="Credits" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1695.0
-offset_top = 867.0
-offset_right = 1919.0
-offset_bottom = 973.0
+offset_left = 1693.0
+offset_top = 868.0
+offset_right = 1917.0
+offset_bottom = 974.0
 
 [node name="TextureRect" type="TextureRect" parent="Credits"]
 layout_mode = 0
@@ -72,6 +74,7 @@ offset_right = 224.0
 offset_bottom = 106.0
 texture = ExtResource("5_6vd4x")
 expand_mode = 3
+metadata/_edit_lock_ = true
 
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Start" to="." method="_on_button_pressed"]
