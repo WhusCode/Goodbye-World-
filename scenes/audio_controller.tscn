@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddooh5hav6ihv"]
+
+[ext_resource type="Script" uid="uid://b30qyrdy6yynd" path="res://scripts/audio_controller.gd" id="1_41o6r"]
+[ext_resource type="AudioStream" uid="uid://blskevlfv1oa" path="res://MusicFiles/Dragon Smasher.mp3" id="2_5dt40"]
+
+[node name="Audio" type="Node"]
+script = ExtResource("1_41o6r")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_5dt40")

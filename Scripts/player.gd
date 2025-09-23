@@ -4,15 +4,13 @@ var enemy_inattack_range = false
 var enemy_attack_cd = true
 var health = 200
 var player_alive = true
-
 var attack_ip = false
-
 const speed = 100
 var current_dir = "none"
 
-func _ready():
+func _ready() -> void:
 	$AnimatedSprite2D.play("idle")
-
+	
 func _physics_process(delta):
 	player_movement(delta)
 	enemy_attack()

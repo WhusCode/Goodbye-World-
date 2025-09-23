@@ -21,6 +21,7 @@ boot_splash/minimum_display_time=500
 [autoload]
 
 Global="*res://scripts/global.gd"
+AudioController="*res://scripts/audio_controller.gd"
 
 [display]
 
@@ -28,6 +29,15 @@ window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/mode="viewport"
 window/main_scene="res://scenes/TitleScreen"
+
+[file_customization]
+
+folder_colors={
+"res://MusicFiles/": "green",
+"res://art/": "red",
+"res://scenes/": "orange",
+"res://scripts/": "yellow"
+}
 
 [input]
 
