@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1758620202
+::res://::1758671739
 ::res://art/::1758150383
 ::res://art/Background/::1758583653
 titleScreenReference-GoodbyeWorld.PNG::CompressedTexture2D::5457540215851091220::1758150352::1758150355::1::::<><><>0<>0<>d1a1f9aa6bd56584836c19004a0ee997<>res://.godot/imported/titleScreenReference-GoodbyeWorld.PNG-06e1ce73353f3862801ecd7b64a94ac1.ctex::
@@ -38,17 +38,17 @@ unselectedVerNotesButton.PNG::CompressedTexture2D::3254089705345487811::17581503
 WPISplash.png::CompressedTexture2D::5077936690752198584::1758150383::1758150385::1::::<><><>0<>0<>b5b4961957740aaef47621b67f8059dd<>res://.godot/imported/WPISplash.png-7f1bf8e1feebdbf49502a379558ae06e.ctex::
 ::res://MusicFiles/::1758617713
 Dragon Smasher.mp3::AudioStreamMP3::94008005783155804::1758617713::1758617713::1::::<><><>0<>0<>8759bb4ed84b8b1000c625909d9004d1<>res://.godot/imported/Dragon Smasher.mp3-a3f6eb03337872171f24ae7cc916d8f1.mp3str::
-::res://scenes/::1758619996
-audio_controller.tscn::PackedScene::7399593995549728171::1758619996::0::1::::<><><>0<>0<><>::uid://b30qyrdy6yynd::::res://scripts/audio_controller.gd<>uid://blskevlfv1oa::::res://MusicFiles/Dragon Smasher.mp3
+::res://scenes/::1758620513
+audio_controller.tscn::PackedScene::7399593995549728171::1758620513::0::1::::<><><>0<>0<><>::uid://b30qyrdy6yynd::::res://scripts/audio_controller.gd<>uid://blskevlfv1oa::::res://MusicFiles/Dragon Smasher.mp3
 credits.tscn::PackedScene::426061793125689957::1758150502::0::1::::<><><>0<>0<><>::uid://co3cgqfmuyoi3::::res://Scripts/credits.gd
 enemy.tscn::PackedScene::6427199464140068306::1758150321::0::1::::<><><>0<>0<><>::uid://cmrbw75a6ljdt::::res://art/TutorialArt/slime.png<>uid://dcdtape5tqllw::::res://scripts/enemy.gd
 player.tscn::PackedScene::1939878156375805415::1758583424::0::1::::<><><>0<>0<><>::uid://podkvv2cp5mj::::res://scripts/player.gd<>uid://ddcfrsw81ftjo::::res://art/TutorialArt/player.png<>uid://dmr43dix3noos::::res://art/Sprites/SorenIdle.png
 title_screen.tscn::PackedScene::1631125973563563537::1758583423::0::1::::<><><>0<>0<><>::uid://b8cj2c5oj8rnx::::res://Scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://art/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://bmmkm8u4gl604::::res://art/UI/unselectedVerNotesButton.PNG<>uid://ca2jo5r7a0yrw::::res://art/UI/unselectedQuitButton.PNG<>uid://bldu1mrbxxq6e::::res://art/UI/unselectedCreditsButton.PNG
 version_notes.tscn::PackedScene::7078280800538675459::1758583821::0::1::::<><><>0<>0<><>::uid://cg3t38xgxeg32::::res://Scripts/version_notes.gd
 world.tscn::PackedScene::8731724331218117591::1758619329::0::1::::<><><>0<>0<><>::uid://d4kart7sn3a4h::::res://art/TutorialArt/plains.png<>uid://btc57mfqgpcjy::::res://scripts/world.gd<>uid://tb404mr8vdh1::::res://art/TutorialArt/grass.png<>uid://diu8hd0vtqxhl::::res://art/TutorialArt/objects.png<>uid://2vxrll2fnmvv::::res://scenes/player.tscn<>uid://cxtnbh1160sas::::res://scenes/enemy.tscn
-::res://scripts/::1758620158
-audio_controller.gd::GDScript::4404332979011696909::1758620158::0::1::::<>RefCounted<><>0<>0<><>::
-control.gd::GDScript::4707376100666892525::1758619825::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/::1758620426
+audio_controller.gd::GDScript::4404332979011696909::1758620426::0::1::::<>Node<><>0<>0<><>::
+control.gd::GDScript::4707376100666892525::1758620426::0::1::::<>Control<><>0<>0<><>::
 credits.gd::GDScript::5547958669524942289::1758150516::0::1::::<>Control<><>0<>0<><>::
 enemy.gd::GDScript::7306987289898674984::1758149969::0::1::::<>CharacterBody2D<><>0<>0<><>::
 global.gd::GDScript::9147265535795929038::1758149969::0::1::::<>Node<><>0<>0<><>::
