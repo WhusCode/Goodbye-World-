@@ -1,6 +1,6 @@
 [gd_scene load_steps=47 format=3 uid="uid://2vxrll2fnmvv"]
 
-[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://scripts/player.gd" id="1_yg3w4"]
+[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://Scripts/player.gd" id="1_yg3w4"]
 [ext_resource type="Texture2D" uid="uid://ddcfrsw81ftjo" path="res://art/TutorialArt/player.png" id="2_d7y02"]
 [ext_resource type="Texture2D" uid="uid://dmr43dix3noos" path="res://art/Sprites/SorenIdle.png" id="3_qhqgy"]
 

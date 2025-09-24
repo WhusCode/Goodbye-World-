@@ -49,12 +49,19 @@ theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center][color=indian_red]Goodbye, World! - Version Notes[/color][/center]
 
-[center][color=indian_red] . . . Version 2.1 (current) . . . [/color][/center]
-[center][color=rosy_brown] Player Sprite Added [/color][/center]
+[center][color=indian_red] . . . Version 3.1 (current) . . . [/color][/center]
+[center][color=rosy_brown] Forest Level Design (Draft) Implemented [/color][/center]
+
+[center][color=indian_red] . . . Version 3.0 . . . [/color][/center]
+[center][color=rosy_brown] File Merge [/color][/center]
+[center][color=rosy_brown] Basic Attacking Temporarily Removed [/color][/center]
+
+[center][color=indian_red] . . . Version 2.1 . . . [/color][/center]
+[center][color=rosy_brown] Player Idle Sprite Added [/color][/center]
 [center][color=rosy_brown] Walking Audio SFX Temporarily Removed [/color][/center]
 
 [center][color=indian_red] . . . Version 2.0 . . . [/color][/center]
-[center][color=rosy_brown] Basic Attacking + Movement Added [/color][/center]
+[center][color=rosy_brown] Basic Attack & Movement Added [/color][/center]
 
 [center][color=indian_red] . . . Version 1.4 . . . [/color][/center]
 [center][color=rosy_brown] Walking Audio SFX Added [/color][/center]

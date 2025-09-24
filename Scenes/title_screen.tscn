@@ -25,7 +25,7 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.8
 anchor_bottom = 1.717
-offset_right = -1539.5999
+offset_right = -1539.6
 offset_bottom = -776.077
 texture = ExtResource("2_55kwv")
 expand_mode = 3
@@ -76,9 +76,9 @@ texture = ExtResource("5_6vd4x")
 expand_mode = 3
 metadata/_edit_lock_ = true
 
-[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Start" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VersionNotes" to="." method="_on_version_notes_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="Credits" to="." method="_on_credits_pressed"]
