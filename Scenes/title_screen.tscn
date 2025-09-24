@@ -76,8 +76,8 @@ texture = ExtResource("5_6vd4x")
 expand_mode = 3
 metadata/_edit_lock_ = true
 
-[connection signal="pressed" from="Start" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VersionNotes" to="." method="_on_version_notes_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
