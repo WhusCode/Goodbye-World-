@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://gcnf74ic5rcn"]
 
-[ext_resource type="Script" uid="uid://co3cgqfmuyoi3" path="res://Scripts/credits.gd" id="1_r18jl"]
+[ext_resource type="Script" uid="uid://clbqclo8ib8mn" path="res://Scripts/credits.gd" id="1_r18jl"]
 
 [node name="Credits" type="Control"]
 layout_mode = 3
@@ -53,20 +53,34 @@ text = "[center][color=indian_red]Goodbye, World! - Team 4, IMGD1001A25[/color][
 [center][color=rosy_brown] Narrative Design + Writer [/color][/center]
 [center][color=rosy_brown] Scrolling Credits [/color][/center]
 [center][color=rosy_brown] Scrolling Version Notes [/color][/center]
+[center][color=rosy_brown] Story Opening (not yet implemented) [/color][/center]
+[center][color=rosy_brown] Story Middle (not yet implemented) [/color][/center]
+[center][color=rosy_brown] Forest Level Design [/color][/center]
 
 [center][color=indian_red] . . . Samantha Szeto . . . [/color][/center]
 [center][color=rosy_brown] Lead Artist [/color][/center]
 [center][color=rosy_brown] Title Screen Art [/color][/center]
 [center][color=rosy_brown] Character Designs [/color][/center]
+[center][color=rosy_brown] Player Character Sprite (partially implemented) [/color][/center]
+[center][color=rosy_brown] Player Walking, Attacking Animations (not yet implemented) [/color][/center]
 
 [center][color=indian_red] . . . Caleb Martin . . . [/color][/center]
 [center][color=rosy_brown] Programmer + Artist [/color][/center]
-[center][color=rosy_brown] Title Screen [/color][/center]
+[center][color=rosy_brown] Title Screen Functionality [/color][/center]
 [center][color=rosy_brown] WPI Splash Screen [/color][/center]
+[center][color=rosy_brown] File Merge Fix [/color][/center]
+[center][color=rosy_brown] Audio Controller (not yet implemented) [/color][/center]
 
 [center][color=indian_red] . . . Avi Pal . . . [/color][/center]
 [center][color=rosy_brown] Programmer + Audio [/color][/center]
-[center][color=rosy_brown] Walking SFX [/color][/center]
-[center][color=rosy_brown] Basic Functionality (not yet published) [/color][/center]"
+[center][color=rosy_brown] Walking SFX (temporarily removed) [/color][/center]
+[center][color=rosy_brown] Basic Functionality [/color][/center]
+[center][color=rosy_brown] Enemy Pathfinding [/color][/center]
+[center][color=rosy_brown] Sword Slash SFX (not yet implemented) [/color][/center]
+
+[center][color=indian_red] . . . Other Sources . . . [/color][/center]
+[center][color=rosy_brown] Youtube @ DevWorm - Basic RPG Tutorial [/color][/center]
+[center][color=rosy_brown] Youtube @ DevWorm - Placeholder Assets (Environment, Player, Enemy) [/color][/center]
+"
 
 [connection signal="pressed" from="MainMenu" to="." method="_on_main_menu_pressed"]
