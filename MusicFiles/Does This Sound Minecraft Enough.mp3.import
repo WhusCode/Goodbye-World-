@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3qr5hh13p4r8"
+path="res://.godot/imported/Does This Sound Minecraft Enough.mp3-0229f505ff681181f5a92472726a1651.mp3str"
+
+[deps]
+
+source_file="res://MusicFiles/Does This Sound Minecraft Enough.mp3"
+dest_files=["res://.godot/imported/Does This Sound Minecraft Enough.mp3-0229f505ff681181f5a92472726a1651.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

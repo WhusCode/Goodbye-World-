@@ -23,32 +23,34 @@ func _physics_process(delta):
 		self.queue_free()
 
 func player_movement(delta):
-	
+	velocity = Vector2.ZERO
+
 	if Input.is_action_pressed("right"):
-		current_dir = "right"
+		velocity.x += 1
+	if Input.is_action_pressed("left"):
+		velocity.x -= 1
+	if Input.is_action_pressed("down"):
+		velocity.y += 1
+	if Input.is_action_pressed("up"):
+		velocity.y -= 1
+
+	if velocity != Vector2.ZERO:
+		velocity = velocity.normalized() * speed
+		
+		# Update animation direction based on last input
+		if velocity.x > 0:
+			current_dir = "right"
+		elif velocity.x < 0:
+			current_dir = "left"
+		elif velocity.y > 0:
+			current_dir = "down"
+		elif velocity.y < 0:
+			current_dir = "up"
+
 		play_anim(1)
-		velocity.x = speed
-		velocity.y = 0
-	elif Input.is_action_pressed("left"):
-		current_dir = "left"
-		play_anim(1)
-		velocity.x = -speed
-		velocity.y = 0
-	elif Input.is_action_pressed("up"):
-		current_dir = "up"
-		play_anim(1)
-		velocity.x = 0
-		velocity.y = -speed
-	elif Input.is_action_pressed("down"):
-		current_dir = "down"
-		play_anim(1)
-		velocity.x = 0
-		velocity.y = speed
 	else:
 		play_anim(0)
-		velocity.x = 0
-		velocity.y = 0
-		
+
 	move_and_slide()
 
 func play_anim(movement):

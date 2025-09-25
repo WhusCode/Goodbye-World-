@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnhm3lclynddb"]
+
+[ext_resource type="Script" uid="uid://bym3a1vi4j2dm" path="res://scripts/settings.gd" id="1_x2hje"]
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_x2hje")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 612.0
+offset_right = 1305.0
+offset_bottom = 379.0
+theme_override_font_sizes/normal_font_size = 100
+text = "Settings Menu"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_top = 778.0
+offset_right = 525.0
+offset_bottom = 1075.0
+theme_override_font_sizes/font_size = 80
+text = "Back to Main"
+
+[node name="MusicVolumeSilde" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 612.0
+offset_top = 552.0
+offset_right = 1305.0
+offset_bottom = 731.0
+min_value = -30.0
+max_value = 0.0
+value = -15.0
+
+[node name="Volume" type="Label" parent="MusicVolumeSilde"]
+layout_mode = 0
+offset_right = 687.0
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 60
+text = "Volume"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="value_changed" from="MusicVolumeSilde" to="." method="_on_h_slider_value_changed"]

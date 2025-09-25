@@ -1,5 +1,6 @@
 extends Node
 var music_playing: bool = false #sets  music as not playing
+var musicvolume: float = -15
 @onready var music: AudioStreamPlayer = $Music
 
 # Called when the node enters the scene tree for the first time.
@@ -9,16 +10,14 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func _process(float) -> void:
+	music.volume_db = musicvolume
 
-func play_title():
-	AudioController.music_playing = true
-	play_track_by_file("res://MusicFiles/Dragon Smasher.mp3")
-	music.volume_db = -10
 
 func play_track_by_file(file: String): 
 	music.stop()
+	music_playing = true
+	music.volume_db = musicvolume
 	music.stream = load(file)
 	music.play()
 	
@@ -28,4 +27,4 @@ func stop_music():
 
 
 func _on_music_finished() -> void:
-	play_track_by_file("res://Audio/CaedisTitle.mp3")
+	music_playing = false

@@ -1,6 +1,10 @@
+Label
+RichTextLabel
+HSlider
+Button
+Label      - Matches the "text" keyword.
 TileMap
 AudioStreamPlayer
 Node
 Camera2D
-Button
 TextureRect
