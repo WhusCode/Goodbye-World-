@@ -69,7 +69,9 @@ text = "[center][color=indian_red]Goodbye, World! - Team 4, IMGD1001A25[/color][
 [center][color=rosy_brown] Title Screen Functionality [/color][/center]
 [center][color=rosy_brown] WPI Splash Screen [/color][/center]
 [center][color=rosy_brown] File Merge Fix [/color][/center]
-[center][color=rosy_brown] Audio Controller (not yet implemented) [/color][/center]
+[center][color=rosy_brown] Audio Controller [/color][/center]
+[center][color=rosy_brown] Settings with Audio Slider [/color][/center]
+[center][color=rosy_brown] Level Clipping Fix [/color][/center]
 
 [center][color=indian_red] . . . Avi Pal . . . [/color][/center]
 [center][color=rosy_brown] Programmer + Audio [/color][/center]

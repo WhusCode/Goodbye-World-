@@ -49,7 +49,12 @@ theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center][color=indian_red]Goodbye, World! - Version Notes[/color][/center]
 
-[center][color=indian_red] . . . Version 3.1 (current) . . . [/color][/center]
+[center][color=indian_red] . . . Version 3.2 (current) . . . [/color][/center]
+[center][color=rosy_brown] Placeholder Audio Implemented [/color][/center]
+[center][color=rosy_brown] Level Clipping Fixed [/color][/center]
+[center][color=rosy_brown] Settings with Audio Slider Implemented [/color][/center]
+
+[center][color=indian_red] . . . Version 3.1 . . . [/color][/center]
 [center][color=rosy_brown] Forest Level Design (Draft) Implemented [/color][/center]
 
 [center][color=indian_red] . . . Version 3.0 . . . [/color][/center]

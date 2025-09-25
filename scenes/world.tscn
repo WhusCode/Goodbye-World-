@@ -1,11 +1,11 @@
 [gd_scene load_steps=11 format=3 uid="uid://dwnyhu7wlotbj"]
 
 [ext_resource type="Texture2D" uid="uid://d4kart7sn3a4h" path="res://art/TutorialArt/plains.png" id="1_c143k"]
-[ext_resource type="Script" uid="uid://btc57mfqgpcjy" path="res://scripts/world.gd" id="1_qfnet"]
+[ext_resource type="Script" uid="uid://btc57mfqgpcjy" path="res://Scripts/world.gd" id="1_qfnet"]
 [ext_resource type="Texture2D" uid="uid://tb404mr8vdh1" path="res://art/TutorialArt/grass.png" id="2_csxdg"]
 [ext_resource type="Texture2D" uid="uid://diu8hd0vtqxhl" path="res://art/TutorialArt/objects.png" id="3_kwj4h"]
-[ext_resource type="PackedScene" uid="uid://2vxrll2fnmvv" path="res://scenes/player.tscn" id="4_7x55j"]
-[ext_resource type="PackedScene" uid="uid://cxtnbh1160sas" path="res://scenes/enemy.tscn" id="5_71j4m"]
+[ext_resource type="PackedScene" uid="uid://2vxrll2fnmvv" path="res://Scenes/player.tscn" id="4_7x55j"]
+[ext_resource type="PackedScene" uid="uid://cxtnbh1160sas" path="res://Scenes/enemy.tscn" id="5_71j4m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pus0g"]
 texture = ExtResource("1_c143k")
