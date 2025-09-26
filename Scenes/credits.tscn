@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://gcnf74ic5rcn"]
 
-[ext_resource type="Script" uid="uid://clbqclo8ib8mn" path="res://Scripts/credits.gd" id="1_r18jl"]
+[ext_resource type="Script" uid="uid://clbqclo8ib8mn" path="res://scripts/credits.gd" id="1_r18jl"]
 
 [node name="Credits" type="Control"]
 layout_mode = 3
@@ -75,10 +75,9 @@ text = "[center][color=indian_red]Goodbye, World! - Team 4, IMGD1001A25[/color][
 
 [center][color=indian_red] . . . Avi Pal . . . [/color][/center]
 [center][color=rosy_brown] Programmer + Audio [/color][/center]
-[center][color=rosy_brown] Walking SFX (temporarily removed) [/color][/center]
 [center][color=rosy_brown] Basic Functionality [/color][/center]
 [center][color=rosy_brown] Enemy Pathfinding [/color][/center]
-[center][color=rosy_brown] Sword Slash SFX (not yet implemented) [/color][/center]
+
 
 [center][color=indian_red] . . . Other Sources . . . [/color][/center]
 [center][color=rosy_brown] Youtube @ DevWorm - Basic RPG Tutorial [/color][/center]
