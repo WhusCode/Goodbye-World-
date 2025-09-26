@@ -51,6 +51,20 @@ func deal_with_dmg():
 			health = health - 20
 			$take_dmg_cd.start()
 			can_take_dmg = false
+			
+			# Play damage flash animation 
+			var tween : Tween = create_tween() 
+			tween.set_ease(Tween.EASE_OUT)
+			tween.set_trans(Tween.TRANS_ELASTIC)
+			tween.tween_property($AnimatedSprite2D, "material:shader_parameter/flash_value", 1.0, 0.2)
+			
+			await tween.finished
+			
+			tween = create_tween() 
+			tween.set_ease(Tween.EASE_OUT)
+			tween.set_trans(Tween.TRANS_ELASTIC)
+			tween.tween_property($AnimatedSprite2D, "material:shader_parameter/flash_value", 0.0, 0.2)
+			
 			if health <= 0:
 				self.queue_free()
 				#$AnimatedSprite2D.play("death")

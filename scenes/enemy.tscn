@@ -1,7 +1,13 @@
-[gd_scene load_steps=22 format=3 uid="uid://cxtnbh1160sas"]
+[gd_scene load_steps=24 format=3 uid="uid://cxtnbh1160sas"]
 
 [ext_resource type="Texture2D" uid="uid://cmrbw75a6ljdt" path="res://art/TutorialArt/slime.png" id="1_fnqhf"]
-[ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://Scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5uy6h"]
+shader = ExtResource("2_4ra3w")
+shader_parameter/flash_color = Color(1, 1, 1, 1)
+shader_parameter/flash_value = 0.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7p1mj"]
 atlas = ExtResource("1_fnqhf")
@@ -140,6 +146,7 @@ platform_floor_layers = 4294967040
 script = ExtResource("1_md0e3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_5uy6h")
 position = Vector2(0, -6)
 sprite_frames = SubResource("SpriteFrames_moy5k")
 animation = &"idle"
