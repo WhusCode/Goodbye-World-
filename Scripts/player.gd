@@ -60,31 +60,31 @@ func play_anim(movement):
 	if dir == "right":
 		anim.flip_h = false
 		if movement == 1:
-			anim.play("side_walk")
+			anim.play("sideRun")
 		elif movement == 0:
 			if attack_ip == false:
-				anim.play("idle")
+				anim.play("sideIdle")
 	if dir == "left":
 		anim.flip_h = true
 		if movement == 1:
-			anim.play("side_walk")
+			anim.play("sideRun")
 		elif movement == 0:
 			if attack_ip == false:
-				anim.play("idle")
+				anim.play("sideIdle")
 	if dir == "up":
-		anim.flip_h = true
+		anim.flip_h = false
 		if movement == 1:
-			anim.play("back_walk")
+			anim.play("frontRun")
 		elif movement == 0:
 			if attack_ip == false:
-				anim.play("idle")
+				anim.play("frontIdle")
 	if dir == "down":
-		anim.flip_h = true
+		anim.flip_h = false
 		if movement == 1:
-			anim.play("front_walk")
+			anim.play("frontRun")
 		elif movement == 0:
 			if attack_ip == false:
-				anim.play("idle")
+				anim.play("frontIdle")
 
 func player():
 	pass
@@ -123,7 +123,7 @@ func attack():
 			$AnimatedSprite2D.play("side_attack")
 			$deal_attack_timer.start()
 		if dir == "down":
-			$AnimatedSprite2D.play("front_attack")
+			$AnimatedSprite2D.play("frontAttack")
 			$deal_attack_timer.start()
 		if dir == "up":
 			$AnimatedSprite2D.play("back_attack")
