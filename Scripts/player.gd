@@ -117,17 +117,23 @@ func attack():
 		if dir == "right":
 			$AnimatedSprite2D.flip_h = false
 			$AnimatedSprite2D.play("side_attack")
-			$deal_attack_timer.start()
+			
 		if dir == "left":
 			$AnimatedSprite2D.flip_h = true
 			$AnimatedSprite2D.play("side_attack")
-			$deal_attack_timer.start()
+			
 		if dir == "down":
 			$AnimatedSprite2D.play("frontAttack")
-			$deal_attack_timer.start()
+
 		if dir == "up":
 			$AnimatedSprite2D.play("back_attack")
-			$deal_attack_timer.start()
+			
+		# play sword_slash audio wioth random pitch
+		
+		var pitch_range:float = randf_range(0.7, 1.3)
+		$melee_swing.pitch_scale = pitch_range
+		$melee_swing.play()
+		$deal_attack_timer.start()
 
 
 

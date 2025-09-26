@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1758921408
+::res://::1758923903
 ::res://addons/::1758920914
 ::res://addons/dialogic/::1758920915
 plugin.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
@@ -122,13 +122,13 @@ home_page.gd::GDScript::3217611485290090033::1758920914::0::1::::<>DialogicEdito
 home_page.tscn::PackedScene::5947401273500014660::1758920914::0::1::::<><><>0<>0<><>::uid://bl3vudjf3wn2x::::res://addons/dialogic/Editor/HomePage/home_page.gd<>uid://cvmlp5nxb2rer::::res://addons/dialogic/Editor/HomePage/icon_bg.png<>uid://bt87p6qlso0ya::::res://addons/dialogic/Editor/Images/dialogic-logo.svg
 icon_bg.png::CompressedTexture2D::6272275887492997861::1758920914::1758921404::1::::<><><>0<>0<>a6dc0eb2458fc9a7cc3a4dc985e4b9c4<>res://.godot/imported/icon_bg.png-5937ce0a857c4a8a9d624ea9ebf09a97.ctex::
 tips.txt::TextFile::-1::1758920914::0::1::::<><><>0<>0<><>::
-::res://addons/dialogic/Editor/Images/::1758921404
+::res://addons/dialogic/Editor/Images/::1758921416
 dialogic-logo.svg::CompressedTexture2D::3790104562841938052::1758920914::1758921404::1::::<><><>0<>0<>e79cfc2d598828d337ee8ec7389082a7<>res://.godot/imported/dialogic-logo.svg-e43201cabc9573eeb3f78fd91ea9d909.ctex::
 plugin-icon.svg::CompressedTexture2D::8846273605144170474::1758920914::1758921403::1::::<><><>0<>0<>e4eed80df45ee68970150622d4b706b2<>res://.godot/imported/plugin-icon.svg-aa6701e8ed73f5fe5d177dfddce3a0e3.ctex::
 preview_character.png::CompressedTexture2D::2091084072335210920::1758920914::1758921415::1::::<><><>0<>0<>2bdd906bf6d5bcf8cef7d85d31f95e13<>res://.godot/imported/preview_character.png-54f0625ad8281c635fea35a4930d95b6.ctex::
 preview_character_speaker.png::CompressedTexture2D::8278972532691820378::1758920914::1758921415::1::::<><><>0<>0<>b6f7b1cc83f241f40810d93f814c152e<>res://.godot/imported/preview_character_speaker.png-c0667c648e2901adcbe8bf93ddda7f06.ctex::
 Unknown.png::CompressedTexture2D::2468576728646207283::1758920914::1758921415::1::::<><><>0<>0<>d2066d0eea57c324357c473f7098ac67<>res://.godot/imported/Unknown.png-1cc7645f56036e8d378a70ac1dd772bb.ctex::
-::res://addons/dialogic/Editor/Images/Dropdown/::1758920914
+::res://addons/dialogic/Editor/Images/Dropdown/::1758921415
 default.svg::CompressedTexture2D::3699310598590037939::1758920914::1758921415::1::::<><><>0<>0<>259207eeda23df429b2856d5f3220456<>res://.godot/imported/default.svg-3f34de5e45bef5de4d9c15ef78c00c6c.ctex::
 divide.svg::CompressedTexture2D::6901258230860890461::1758920914::1758921415::1::::<><><>0<>0<>d53ae74a790bdf37ced879d046694eec<>res://.godot/imported/divide.svg-4928f878a07ba93ebc44d8ae73ad4c1f.ctex::
 join.svg::CompressedTexture2D::4652731984810704514::1758920914::1758921415::1::::<><><>0<>0<>f7cf43cd23e7a97eea36ca5774bea3fd<>res://.godot/imported/join.svg-2f0d7b9e8e01cf0e62b8c3a85aff6213.ctex::
@@ -141,7 +141,7 @@ update.svg::CompressedTexture2D::1388319587067716478::1758920914::1758921415::1:
 ::res://addons/dialogic/Editor/Images/Interactable/::1758921406
 decrement_icon.svg::CompressedTexture2D::3598714787571246953::1758920914::1758921406::1::::<><><>0<>0<>d781d4a8bb312274b69c7d669b2c9975<>res://.godot/imported/decrement_icon.svg-9556cf56db91e200fb946372e010fd5e.ctex::
 increment_icon.svg::CompressedTexture2D::7705718629669986091::1758920914::1758921406::1::::<><><>0<>0<>295907d5b118ad7b58118388fa09d3fa<>res://.godot/imported/increment_icon.svg-081e6509e76349f0628c55a41e85fd65.ctex::
-::res://addons/dialogic/Editor/Images/Pieces/::1758921405
+::res://addons/dialogic/Editor/Images/Pieces/::1758921416
 add-folder.svg::CompressedTexture2D::70289101131231738::1758920914::1758921405::1::::<><><>0<>0<>4aa4ee68b1a282caab03d02198ed6955<>res://.godot/imported/add-folder.svg-41a970370f904038e63c13bddbdb6450.ctex::
 close-icon.svg::CompressedTexture2D::2749622853586476313::1758920914::1758921403::1::::<><><>0<>0<>f4033a1c56feba113dbcfb0d04e1b822<>res://.godot/imported/close-icon.svg-c630c93ada599b08938f4854f5376f2f.ctex::
 closed-icon.svg::CompressedTexture2D::8832306723559159287::1758920914::1758921403::1::::<><><>0<>0<>237d15ab0893adf2352bfbc5a5b20c61<>res://.godot/imported/closed-icon.svg-b4f16653b91d6792313a130565319b2f.ctex::
@@ -150,7 +150,7 @@ open-icon.svg::CompressedTexture2D::848339285911761348::1758920914::1758921415::
 variable.svg::CompressedTexture2D::7736806399882628569::1758920914::1758921415::1::::<><><>0<>0<>bdda2146c3b52e9bf0068c6a20a66722<>res://.godot/imported/variable.svg-50a50248b9d47e5556571e4111e8d5b4.ctex::
 variable_icon.png::CompressedTexture2D::582349284127075295::1758920914::1758921415::1::::<><><>0<>0<>cca89961e6752899fca991033f9012fc<>res://.godot/imported/variable_icon.png-df9d711980209a7752dc8762037e39ad.ctex::
 warning.svg::CompressedTexture2D::9223293116452544095::1758920914::1758921415::1::::<><><>0<>0<>59cd198c1ca0f6b36f7d633769dfdd6e<>res://.godot/imported/warning.svg-a48ae93c4663637f2aca88d055604495.ctex::
-::res://addons/dialogic/Editor/Images/Resources/::1758921409
+::res://addons/dialogic/Editor/Images/Resources/::1758921416
 character.svg::CompressedTexture2D::2464911902091785916::1758920914::1758921403::1::::<><><>0<>0<>78287aea40c88940d3eb298f48ce9f2f<>res://.godot/imported/character.svg-48bc1c93fa13733a935ca2c669d933a7.ctex::
 icon_character.png::CompressedTexture2D::3275168337811362221::1758920914::1758921415::1::::<><><>0<>0<>2a44743bc6951d101732f446a4c552e4<>res://.godot/imported/icon_character.png-97a1851bbafe2b302ea88c25a87ee2c1.ctex::
 portrait.svg::CompressedTexture2D::7528673539557211468::1758920914::1758921409::1::::<><><>0<>0<>a9fcf7f72ac5a45f569e7e69704e7b2a<>res://.godot/imported/portrait.svg-7d29c7cfe3e086d65dce33c3d66c48cd.ctex::
@@ -201,7 +201,7 @@ timeline_editor_visual.tscn::PackedScene::1722665383415802528::1758920914::0::1:
 ::res://addons/dialogic/Example Assets/::1758920915
 already_read_indicator.gd::GDScript::1159389731600207275::1758920914::0::1::::<>Control<><>0<>0<><>::
 default_event.gd::GDScript::7619498895719356532::1758920914::0::1::::<>DialogicEvent<><>0<>1<><>::
-::res://addons/dialogic/Example Assets/backgrounds/::1758920914
+::res://addons/dialogic/Example Assets/backgrounds/::1758921416
 BubbleEnd.png::CompressedTexture2D::4388992966405638191::1758920914::1758921415::1::::<><><>0<>0<>12b44adcb81eb46ae48b4a383da4db93<>res://.godot/imported/BubbleEnd.png-a2bd812e4aeb33a7c97291d41dcc1793.ctex::
 rpg_box.webp::CompressedTexture2D::7316104029476229333::1758920914::1758921414::1::::<><><>0<>0<>b92c6b9f6a7bb83745b6c146a8c64f1c<>res://.godot/imported/rpg_box.webp-6ea0804b52e01599dbc94ffacc31d433.ctex::
 ::res://addons/dialogic/Example Assets/bbcode_transitions/::1758920914
@@ -210,22 +210,22 @@ fade_in.tres::RichTextEffect/DialogicRichTextTransitionEffect::11316728043691883
 fade_scale_in.tres::RichTextEffect/DialogicRichTextTransitionEffect::540836118571816903::1758920914::0::1::::<><><>0<>0<><>::uid://wf7hpguw17ex::::res://addons/dialogic/Example Assets/bbcode_transitions/bbcode_transition_effect.gd
 fancy_in.tres::RichTextEffect/DialogicRichTextTransitionEffect::7093201724417376801::1758920914::0::1::::<><><>0<>0<><>::uid://wf7hpguw17ex::::res://addons/dialogic/Example Assets/bbcode_transitions/bbcode_transition_effect.gd
 shaky_in.tres::RichTextEffect/DialogicRichTextTransitionEffect::8119816767112300400::1758920914::0::1::::<><><>0<>0<><>::uid://wf7hpguw17ex::::res://addons/dialogic/Example Assets/bbcode_transitions/bbcode_transition_effect.gd
-::res://addons/dialogic/Example Assets/Fonts/::1758920914
+::res://addons/dialogic/Example Assets/Fonts/::1758921413
 LICENSE.txt::TextFile::-1::1758920914::0::1::::<><><>0<>0<><>::
 Roboto-Bold.ttf::FontFile::4974502607393535045::1758920914::1758921413::1::::<><><>0<>0<>72b3ffd2e0ed20f8cf3e80953fa32412<>res://.godot/imported/Roboto-Bold.ttf-a0c3395776dbc11ee676c5f1ea9c0579.fontdata::
 Roboto-Italic.ttf::FontFile::4497760812860504706::1758920914::1758921413::1::::<><><>0<>0<>03e5ce7f77a567299783c624d5d61e7e<>res://.godot/imported/Roboto-Italic.ttf-844485a0171d6031f98f4829003a881a.fontdata::
 Roboto-Regular.ttf::FontFile::1510113951259642821::1758920914::1758921413::1::::<><><>0<>0<>1c3c6990807ccc01b0f171d6bde78be4<>res://.godot/imported/Roboto-Regular.ttf-d9ce0640effe9e93230b445b37d8e692.fontdata::
-::res://addons/dialogic/Example Assets/next-indicator/::1758921405
+::res://addons/dialogic/Example Assets/next-indicator/::1758921415
 next-indicator-dialogic-1.png::CompressedTexture2D::2836034055411034436::1758920914::1758921414::1::::<><><>0<>0<>206e919237e78f0130789d538afc2dff<>res://.godot/imported/next-indicator-dialogic-1.png-694f122eff55e969b54cc43e62eb4758.ctex::
 next-indicator.png::CompressedTexture2D::1456296135446448723::1758920914::1758921405::1::::<><><>0<>0<>612942a6eb8d68551012f5e43b370e6a<>res://.godot/imported/next-indicator.png-e3b7b80d9da791a1d0a061a728b6f781.ctex::
-::res://addons/dialogic/Example Assets/portraits/::1758920915
+::res://addons/dialogic/Example Assets/portraits/::1758921416
 CustomPortrait_AnimatedSprite.gd::GDScript::4148278652280067208::1758920914::0::1::::<>DialogicPortrait<><>0<>1<><>::
 CustomPortrait_AnimatedSprite.tscn::PackedScene::6485364008882196833::1758920914::0::1::::<><><>0<>0<><>::uid://b0dpsqdeb27km::::res://addons/dialogic/Example Assets/portraits/CustomPortrait_AnimatedSprite.gd<>uid://bfkpn7mrd786b::::res://addons/dialogic/Example Assets/portraits/Antonio/pl5.png<>uid://s2jsr1aqiu84::::res://addons/dialogic/Example Assets/portraits/Antonio/pl5 blink.png
 CustomPortrait_FaceAtlas.gd::GDScript::7768972046147160186::1758920914::0::1::::<>DialogicPortrait<><>0<>1<><>::
 CustomPortrait_FaceAtlas.tscn::PackedScene::2845154141187326594::1758920914::0::1::::<><><>0<>0<><>::uid://dixl3myysljgs::::res://addons/dialogic/Example Assets/portraits/CustomPortrait_FaceAtlas.gd<>uid://djqit26f4be4f::::res://addons/dialogic/Example Assets/portraits/Princess/princess_blank.png<>uid://ndmjrpk41eo4::::res://addons/dialogic/Example Assets/portraits/Portrait1.png<>uid://dokv225cp85ja::::res://addons/dialogic/Example Assets/portraits/Princess/anger.png<>uid://5bruuhj5cqu4::::res://addons/dialogic/Example Assets/portraits/Princess/frown.png<>uid://dg7c4umbfsyvs::::res://addons/dialogic/Example Assets/portraits/Princess/joy.png<>uid://bu3631ymfqxi3::::res://addons/dialogic/Example Assets/portraits/Princess/neutral.png<>uid://c5aku2g01k6c6::::res://addons/dialogic/Example Assets/portraits/Princess/shock.png<>uid://dsid4ye0q74nl::::res://addons/dialogic/Example Assets/portraits/Princess/smile.png
 Portrait1.png::CompressedTexture2D::919393693178095657::1758920914::1758921416::1::::<><><>0<>0<>328e751f596a6822f078f38ba420af3b<>res://.godot/imported/Portrait1.png-c609e542fb60d6627e07ca0a12ddd868.ctex::
 Portrait2.png::CompressedTexture2D::1938111132874110083::1758920914::1758921416::1::::<><><>0<>0<>885907901f0f74f4b6b11d808964e5a5<>res://.godot/imported/Portrait2.png-c9d044982430f12029c2193cba14c11f.ctex::
-::res://addons/dialogic/Example Assets/portraits/Antonio/::1758920914
+::res://addons/dialogic/Example Assets/portraits/Antonio/::1758921415
 pl5 blink.png::CompressedTexture2D::1319716915152970511::1758920914::1758921415::1::::<><><>0<>0<>99397773967b4241861cc2814da840dd<>res://.godot/imported/pl5 blink.png-dd40283850366d49ae61df7b137ffd77.ctex::
 pl5 doubt.png::CompressedTexture2D::3218325265989410153::1758920914::1758921415::1::::<><><>0<>0<>f10900c947345a0525c3e63f0fff22c5<>res://.godot/imported/pl5 doubt.png-c657bfaf88fd5c06956ec703146704c8.ctex::
 pl5 hate.png::CompressedTexture2D::5324493651075027799::1758920914::1758921415::1::::<><><>0<>0<>fb21114b77fda0d7a0e64b0e64d4eea5<>res://.godot/imported/pl5 hate.png-004951da12b71d275d61f3fe7af6c760.ctex::
@@ -235,7 +235,7 @@ pl5 scoff.png::CompressedTexture2D::2243750991992031624::1758920914::1758921415:
 pl5 shy.png::CompressedTexture2D::422004432329654047::1758920914::1758921415::1::::<><><>0<>0<>b571d34b3f3d96b8eae933b480612740<>res://.godot/imported/pl5 shy.png-db66f14e608e1c150163af82c8a9f341.ctex::
 pl5 surprise.png::CompressedTexture2D::8256606552180457098::1758920914::1758921415::1::::<><><>0<>0<>075979b8f2f3d16b1484da5bef73a331<>res://.godot/imported/pl5 surprise.png-9f07d67f3c68589bb2cfec738d68b9a7.ctex::
 pl5.png::CompressedTexture2D::2758944349698687091::1758920914::1758921415::1::::<><><>0<>0<>f5b17cd1d03c6bbd21354270043c2cab<>res://.godot/imported/pl5.png-0e78d740b51df476d423c20a3850d39a.ctex::
-::res://addons/dialogic/Example Assets/portraits/Jane/::1758920914
+::res://addons/dialogic/Example Assets/portraits/Jane/::1758921416
 pl3 avoid.png::CompressedTexture2D::4902013924914132830::1758920914::1758921415::1::::<><><>0<>0<>6f63fbf1397af96ba39c2835e4c4323c<>res://.godot/imported/pl3 avoid.png-f8f5fd2a91f270ef9417e3b4bda0f35d.ctex::
 pl3 blink.png::CompressedTexture2D::717033631075681535::1758920914::1758921415::1::::<><><>0<>0<>d759cc6dedc5a0a7670728f064faeb15<>res://.godot/imported/pl3 blink.png-bc002e72d459c371c5ebb5d3d237500e.ctex::
 pl3 concept.png::CompressedTexture2D::5652734515281763143::1758920914::1758921415::1::::<><><>0<>0<>425931c1e30d459db0912b3926b692cb<>res://.godot/imported/pl3 concept.png-baa2419b24f73cd7e47554567e865964.ctex::
@@ -246,7 +246,7 @@ pl3 plot.png::CompressedTexture2D::1436854618165922505::1758920914::1758921415::
 pl3 sad.png::CompressedTexture2D::2720743778910772313::1758920914::1758921416::1::::<><><>0<>0<>a69b05cc286d33a9e89d474d1058d73a<>res://.godot/imported/pl3 sad.png-4ce7b7a2f701590bc444115bab6e0c4e.ctex::
 pl3 shy.png::CompressedTexture2D::4066329412326880800::1758920914::1758921416::1::::<><><>0<>0<>5b88a9047477e85488ca44e4dba2e216<>res://.godot/imported/pl3 shy.png-7dc343f1ee98343c9fe2c9cf93a8d574.ctex::
 pl3 surprise.png::CompressedTexture2D::7094381226958986882::1758920914::1758921416::1::::<><><>0<>0<>f7fc21cbc97bf59e52a274b618445f34<>res://.godot/imported/pl3 surprise.png-92cfd8f7846a35eec2d62e62d532d7e6.ctex::
-::res://addons/dialogic/Example Assets/portraits/Princess/::1758920914
+::res://addons/dialogic/Example Assets/portraits/Princess/::1758921417
 anger.png::CompressedTexture2D::8163874377422716514::1758920914::1758921416::1::::<><><>0<>0<>c1bc8a316cc205766b69173f7b1a3de3<>res://.godot/imported/anger.png-dbcae35ced97cd8763301ede55f7634a.ctex::
 frown.png::CompressedTexture2D::2108798653379899605::1758920914::1758921416::1::::<><><>0<>0<>7bd4bd83293d144d9e59c0f418f91b13<>res://.godot/imported/frown.png-2ea012492bc6286b36736d621adfd96a.ctex::
 joy.png::CompressedTexture2D::7646629492103694140::1758920914::1758921416::1::::<><><>0<>0<>31d524870e49c47dd52fdee6f9f03c1f<>res://.godot/imported/joy.png-a06db3f0763984942582106f69acd2ac.ctex::
@@ -254,12 +254,12 @@ neutral.png::CompressedTexture2D::3849933765807492184::1758920914::1758921416::1
 princess_blank.png::CompressedTexture2D::7824512820198242343::1758920914::1758921417::1::::<><><>0<>0<>bea401b11f13949d777a44a88233c000<>res://.godot/imported/princess_blank.png-fb2f5b52f38dc68c3bb1b4bf7bd4d155.ctex::
 shock.png::CompressedTexture2D::6879150990903275887::1758920914::1758921416::1::::<><><>0<>0<>b4a0606a2ee52095364a46221ff0cd0a<>res://.godot/imported/shock.png-8c83d26226ef9a4e882afabd3875355f.ctex::
 smile.png::CompressedTexture2D::8439411465496085465::1758920914::1758921416::1::::<><><>0<>0<>46987962f09358ca64ce3d98ae454d00<>res://.godot/imported/smile.png-763f387a68c52e40326ccdf00129e290.ctex::
-::res://addons/dialogic/Example Assets/portraits/rpg_portraits/::1758920915
+::res://addons/dialogic/Example Assets/portraits/rpg_portraits/::1758921416
 base1.png::CompressedTexture2D::1834307237934138563::1758920915::1758921416::1::::<><><>0<>0<>7ec9dc48d9d52f753185426545a3d996<>res://.godot/imported/base1.png-d5d7d1c85b1cab665dc0b54194bbd33b.ctex::
 base2.png::CompressedTexture2D::1755843844982455881::1758920915::1758921416::1::::<><><>0<>0<>9101cce48630c8d6a1a3320565cdbc16<>res://.godot/imported/base2.png-4cf3c53a4d499097fe6532e4b778d0b3.ctex::
 base3.png::CompressedTexture2D::44506031136888370::1758920915::1758921416::1::::<><><>0<>0<>ac7519ccd805de9edb6eef62f05f52c8<>res://.godot/imported/base3.png-65e60d03716a9b546a46a38772fc2ace.ctex::
 base4.png::CompressedTexture2D::7326120272898437631::1758920915::1758921416::1::::<><><>0<>0<>b4899dfbfb44e88041d9559770fc8d01<>res://.godot/imported/base4.png-ea3084656f4403d3ff87bdd890f73843.ctex::
-::res://addons/dialogic/Example Assets/sound-effects/::1758921406
+::res://addons/dialogic/Example Assets/sound-effects/::1758921417
 LICENSE.txt::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 typing1.wav::AudioStreamWAV::4568010431156356564::1758920915::1758921406::1::::<><><>0<>0<>a52cca7cf224c03aeda4e3ad16615b31<>res://.godot/imported/typing1.wav-b241c6aab4ce82bf04caf8687873cae0.sample::
 typing2.wav::AudioStreamWAV::6780804797620787432::1758920915::1758921417::1::::<><><>0<>0<>cbe99ab281a77e99a8f1878838098f85<>res://.godot/imported/typing2.wav-64cf50045b34db7d5ef5da984070e0a7.sample::
@@ -267,7 +267,7 @@ typing3.wav::AudioStreamWAV::8074633821211362004::1758920915::1758921417::1::::<
 typing4.wav::AudioStreamWAV::6711814088015193613::1758920915::1758921406::1::::<><><>0<>0<>6346e3754dac76d785d8751861c3160c<>res://.godot/imported/typing4.wav-4e7a00fb19b7dd0bdfd8e323401b6162.sample::
 typing5.wav::AudioStreamWAV::8708586177471314411::1758920915::1758921417::1::::<><><>0<>0<>842ae9c1a1a1ae2e8a12e48a8a43ff5b<>res://.godot/imported/typing5.wav-5315fa96c84bd3957d157e8c978c1f04.sample::
 ::res://addons/dialogic/Modules/::1758920915
-::res://addons/dialogic/Modules/Audio/::1758921407
+::res://addons/dialogic/Modules/Audio/::1758921416
 event_audio.gd::GDScript::2348986988267697635::1758920915::0::1::::DialogicAudioEvent<>DialogicEvent<><>0<>1<><>::
 icon_music.png::CompressedTexture2D::3834477294349682204::1758920915::1758921407::1::::<><><>0<>0<>ca21674e19ccf829372b032856b281a0<>res://.godot/imported/icon_music.png-ffc971ba1265164a55f745186974be5f.ctex::
 icon_sound.png::CompressedTexture2D::9154319766566815221::1758920915::1758921415::1::::<><><>0<>0<>a428dd8bde4bd700aebac26ccaf62c2d<>res://.godot/imported/icon_sound.png-7a1a8a5533773d97969b6311b6a9133f.ctex::
@@ -306,7 +306,7 @@ swipe_right_to_left.gd::GDScript::8718724160635766148::1758920915::0::1::::<>Dia
 event_call.gd::GDScript::1418717509886636330::1758920915::0::1::::DialogicCallEvent<>DialogicEvent<><>0<>1<><>::
 icon.png::CompressedTexture2D::8606518780689924191::1758920915::1758921407::1::::<><><>0<>0<>fba1c82ca4a7e664ba45f007f3d237f0<>res://.godot/imported/icon.png-12e444f0ed59397c7537943ea85b475c.ctex::
 index.gd::GDScript::3734573574369966130::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
-::res://addons/dialogic/Modules/Character/::1758921407
+::res://addons/dialogic/Modules/Character/::1758921416
 class_dialogic_animation.gd::GDScript::1770281322684262772::1758920915::0::1::::DialogicAnimation<>Node<><>0<>0<><>::
 custom_portrait_thumbnail.png::CompressedTexture2D::6919004895018547709::1758920915::1758921415::1::::<><><>0<>0<>bf0302c86cdfb142dd8c97f6faa39311<>res://.godot/imported/custom_portrait_thumbnail.png-0513583853d87342a634d56bc0bec965.ctex::
 default_portrait.gd::GDScript::5791231789665739193::1758920915::0::1::::<>DialogicPortrait<><>0<>1<><>::
@@ -320,7 +320,7 @@ icon_position.png::CompressedTexture2D::6240753079284806829::1758920915::1758921
 index.gd::GDScript::2075963725075832992::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 node_portrait_container.gd::GDScript::8946131689167411849::1758920915::0::1::::DialogicNode_PortraitContainer<>Control<><>0<>1<><>::
 portrait_position.svg::CompressedTexture2D::3357497812767945100::1758920915::1758921416::1::::<><><>0<>0<>57369769c3cec2053b77048073cc24dd<>res://.godot/imported/portrait_position.svg-f025767e40032b9ebdeab1f9e882467a.ctex::
-preview_character.tres::Resource/DialogicCharacter::8864788605870491990::1758920915::0::1::::<><><>0<>0<><>::uid://don4ds5f38byo::::res://addons/dialogic/Resources/character.gd
+preview_character.tres::Resource/DialogicCharacter::8864788605870491990::1758920915::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::uid://don4ds5f38byo::::res://addons/dialogic/Resources/character.gd
 settings_portraits.gd::GDScript::6752804783309176286::1758920915::0::1::::<>DialogicSettingsPage<><>0<>1<><>::
 settings_portraits.tscn::PackedScene::5887474122682821078::1758920915::0::1::::<><><>0<>0<><>::uid://c3hdycwp0hrdm::::res://addons/dialogic/Modules/Character/settings_portraits.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
 simple_image_portrait_thumbnail.png::CompressedTexture2D::1139979017741368080::1758920915::1758921416::1::::<><><>0<>0<>8846e0a5b0758071edfd3fcc4846e769<>res://.godot/imported/simple_image_portrait_thumbnail.png-3d6c6de8187fd7911017e2ef9d3c40a4.ctex::
@@ -359,7 +359,7 @@ settings_choices.tscn::PackedScene::1404846898600483774::1758920915::0::1::::<><
 subsystem_choices.gd::GDScript::5100340098253952414::1758920915::0::1::::<>DialogicSubsystem<><>0<>0<><>::
 ui_choice_end.gd::GDScript::9123939341717603489::1758920915::0::1::::<>HBoxContainer<><>0<>1<><>::
 ui_choice_end.tscn::PackedScene::5738243432914111361::1758920915::0::1::::<><><>0<>0<><>::uid://d28x7h2ufh3dd::::res://addons/dialogic/Modules/Choice/ui_choice_end.gd
-::res://addons/dialogic/Modules/Clear/::1758921407
+::res://addons/dialogic/Modules/Clear/::1758921416
 clear_background.svg::CompressedTexture2D::3585755572244796303::1758920915::1758921416::1::::<><><>0<>0<>42b64b2357700aeec655d73cecbf522d<>res://.godot/imported/clear_background.svg-32f657ae646e5867a8ceb0543ae207de.ctex::
 clear_characters.svg::CompressedTexture2D::9128672524072404421::1758920915::1758921416::1::::<><><>0<>0<>92fc57ac4eaac3f17c607c4e9c495d82<>res://.godot/imported/clear_characters.svg-58481eec0869d46b2d90f2102edd1687.ctex::
 clear_music.svg::CompressedTexture2D::7071655307651287836::1758920915::1758921416::1::::<><><>0<>0<>3549027139af7d2622272d7bb54fd69d<>res://.godot/imported/clear_music.svg-ab19a5f3dc85de8ba17b7c720b838a73.ctex::
@@ -379,7 +379,7 @@ icon.svg::CompressedTexture2D::2557495755310811754::1758920915::1758921407::1:::
 index.gd::GDScript::3678300865650778664::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 ui_condition_end.gd::GDScript::507850684504983884::1758920915::0::1::::<>HBoxContainer<><>0<>1<><>::
 ui_condition_end.tscn::PackedScene::8253210200994885742::1758920915::0::1::::<><><>0<>0<><>::uid://hiahx6lrlm17::::res://addons/dialogic/Modules/Condition/ui_condition_end.gd
-::res://addons/dialogic/Modules/Core/::1758920915
+::res://addons/dialogic/Modules/Core/::1758921416
 event_end_branch.gd::GDScript::2011731353302096505::1758920915::0::1::::DialogicEndBranchEvent<>DialogicEvent<><>0<>1<><>::
 icon.png::CompressedTexture2D::4157435904291715593::1758920915::1758921416::1::::<><><>0<>0<>65c1b57294cdd998911b7175613270d6<>res://.godot/imported/icon.png-6a95c038153eac5ac32780e8a0c1529b.ctex::
 index.gd::GDScript::498048920009516597::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
@@ -396,19 +396,19 @@ part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 text_bubble_base.gd::GDScript::1542491300650441718::1758920915::0::1::::<>DialogicLayoutBase<><>0<>1<><>::
 text_bubble_base.tscn::PackedScene::1313567352675269338::1758920915::0::1::::<><><>0<>0<><>::uid://v8guu7n6gv8a::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.gd
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/::1758921414
 background_layer_icon.svg::CompressedTexture2D::5684618338398076797::1758920915::1758921413::1::::<><><>0<>0<>1a89ffba6272782d5376c7aea7e7e9fb<>res://.godot/imported/background_layer_icon.svg-021cd7ab7c646ee621f9b89b8dfc9d60.ctex::
 full_background_layer.gd::GDScript::3517112264591053323::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 full_background_layer.tscn::PackedScene::6620239367191024367::1758920915::0::1::::<><><>0<>0<><>::uid://bqdylb4maacf0::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.gd<>uid://oxcjhq2817c7::::res://addons/dialogic/Modules/Background/node_background_holder.gd
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::6752591039733634668::1758920915::1758921413::1::::<><><>0<>0<>02c7392931e149a099d4a13f9ea91d8b<>res://.godot/imported/preview.png-4e6ca7ca01626d69870923f306b0d377.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/::1758921414
 glossary_popup_layer.gd::GDScript::1038527132897895289::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 glossary_popup_layer.tscn::PackedScene::8426085437997601224::1758920915::0::1::::<><><>0<>0<><>::uid://o2cnjam8bomr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.gd
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 popup_glossary_layer_icon.svg::CompressedTexture2D::6773218685446495568::1758920915::1758921413::1::::<><><>0<>0<>32777a32789c884adda3d31f7a31516a<>res://.godot/imported/popup_glossary_layer_icon.svg-4af96bdb70714a5289a4ffe42cf8f357.ctex::
 preview.png::CompressedTexture2D::8851309275982362647::1758920915::1758921413::1::::<><><>0<>0<>0d4f7ef7f17faa4968bb1058278361a0<>res://.godot/imported/preview.png-573567ffd6162e40c78fe5aca0af73c9.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/::1758921414
 example_history_item.gd::GDScript::2243124038726582318::1758920915::0::1::::<>Container<><>0<>0<><>::
 example_history_item.tscn::PackedScene::6207016936388778734::1758920915::0::1::::<><><>0<>0<><>::uid://67t6pr2eatac::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.gd
 history_icon.svg::CompressedTexture2D::6281808712891090691::1758920915::1758921413::1::::<><><>0<>0<>bfe51c3bee3133e7821abdb8452c4eda<>res://.godot/imported/history_icon.svg-0be9d23e65368ea3983968e4ce0e43d3.ctex::
@@ -416,20 +416,20 @@ history_layer.gd::GDScript::466510927298339214::1758920915::0::1::::<>DialogicLa
 history_layer.tscn::PackedScene::24154399605827450::1758920915::0::1::::<><><>0<>0<><>::uid://gv8mqbjor5nu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.gd<>uid://cuoywrmvda1yg::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.tscn
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::4641689977736716692::1758920915::1758921413::1::::<><><>0<>0<>0c01fcecdbad0ce149ee54b2b0d05f9d<>res://.godot/imported/preview.png-b328f7e30aebed2adb4720cdbf791362.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/::1758921414
 full_advance_input_layer.gd::GDScript::8728915743937490605::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 full_advance_input_layer.tscn::PackedScene::5751287062166832928::1758920915::0::1::::<><><>0<>0<><>::uid://dwml743wmb7mn::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.gd<>uid://ctog34kdg222q::::res://addons/dialogic/Modules/Text/node_input.gd
 input_layer_icon.svg::CompressedTexture2D::3920242578168397878::1758920915::1758921413::1::::<><><>0<>0<>7a3bbd0cb21dc92669b4356ad393197b<>res://.godot/imported/input_layer_icon.svg-3f439e08e8c66cbf3522ce60714f7588.ctex::
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::4608186578602512888::1758920915::1758921414::1::::<><><>0<>0<>7c4fcad6e2e78db0cd2fffdb2f5cdafe<>res://.godot/imported/preview.png-c20c74f5253522c0ea9ec9a21fcd804d.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/::1758921414
 default_stylebox.tres::StyleBoxFlat::5646424049282425802::1758920915::0::1::::<><><>0<>0<><>::
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::1326475808619160445::1758920915::1758921414::1::::<><><>0<>0<>349901d88930d49ae91547fe05c07318<>res://.godot/imported/preview.png-dcc8befd9aebdd8b4c988971a734c72f.ctex::
 speaker-textbox-icon.svg::CompressedTexture2D::6572615020867580224::1758920915::1758921414::1::::<><><>0<>0<>ea39c0b849c7e83603feb1423c94bc29<>res://.godot/imported/speaker-textbox-icon.svg-e67964032c31cfdc4bf5a376d48a985e.ctex::
 speaker_portrait_textbox_layer.gd::GDScript::3158226406090215546::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 textbox_with_speaker_portrait.tscn::PackedScene::4136285383422450981::1758920915::0::1::::<><><>0<>0<><>::uid://d0ptqnbudhkyj::::res://addons/dialogic/Modules/Character/node_portrait_container.gd<>uid://bk84r61kckpxa::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/speaker_portrait_textbox_layer.gd<>uid://bak74s0kcr0ao::::res://addons/dialogic/Modules/Text/node_name_label.gd<>uid://drhfq6rmdeuri::::res://addons/dialogic/Modules/Text/node_dialog_text.gd<>uid://dpv2dfiv5dhmr::::res://addons/dialogic/Modules/Text/node_type_sound.gd
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/::1758921414
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::1666601866937659873::1758920915::1758921414::1::::<><><>0<>0<>a07bf6ddd1d9e8268595559f15957c0d<>res://.godot/imported/preview.png-136e526350ab989f1e1d2ba13d756aaa.ctex::
 speech_bubble.gdshader::Shader::6092876677169649742::1758920915::0::1::::<><><>0<>0<><>::
@@ -439,13 +439,13 @@ text_bubble.tscn::PackedScene::7980779173428697354::1758920915::0::1::::<><><>0<
 text_bubble_layer.gd::GDScript::7299938676909868101::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 text_bubble_layer.tscn::PackedScene::9072075339465482549::1758920915::0::1::::<><><>0<>0<><>::uid://dcae6nsh8fgtp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.gd
 text_bubble_layer_icon.svg::CompressedTexture2D::7612818198478101362::1758920915::1758921414::1::::<><><>0<>0<>069823444eaf8f994992d1168286a8b0<>res://.godot/imported/text_bubble_layer_icon.svg-d46d5806bbf83c1dc50f8d7fc8dac67d.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/::1758921414
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::3354729633291840074::1758920915::1758921414::1::::<><><>0<>0<>4c2add19182f9f0d761115719d53ed02<>res://.godot/imported/preview.png-bcceb5d2b7f92c1d0f818071294dc895.ctex::
 text_input_layer.gd::GDScript::5412026392586618337::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 text_input_layer.tscn::PackedScene::6259548876513588080::1758920915::0::1::::<><><>0<>0<><>::uid://cjdvjwjrj86sj::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.gd<>uid://biqpjv0qyefvf::::res://addons/dialogic/Modules/TextInput/node_text_input.gd
 text_input_layer_icon.svg::CompressedTexture2D::9001753205476851513::1758920915::1758921414::1::::<><><>0<>0<>5058a6c260e3c32890e58760b8ac28c1<>res://.godot/imported/text_input_layer_icon.svg-5a1e8bca317bf45f6805d82812407215.ctex::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/::1758921414
 choices_layer_icon.svg::CompressedTexture2D::1619877049926111804::1758920915::1758921414::1::::<><><>0<>0<>303491ed014ba889aa0db412fc7c0c5b<>res://.godot/imported/choices_layer_icon.svg-2f676308da08dddba733cb2bfba8fc69.ctex::
 choice_panel_focus.tres::StyleBoxFlat::3842993240234113681::1758920915::0::1::::<><><>0<>0<><>::
 choice_panel_hover.tres::StyleBoxFlat::1653175341677166036::1758920915::0::1::::<><><>0<>0<><>::
@@ -454,13 +454,13 @@ part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::546001159453912051::1758920915::1758921414::1::::<><><>0<>0<>ca8062a552d6edfe50739e8519e97abe<>res://.godot/imported/preview.png-ae89c99370d002f2ecf00af8e270d88c.ctex::
 vn_choice_layer.gd::GDScript::581637318614735199::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 vn_choice_layer.tscn::PackedScene::225680225514622240::1758920915::0::1::::<><><>0<>0<><>::uid://ij0qm2ew6plv::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.gd<>uid://bldt7xlfum7ov::::res://addons/dialogic/Modules/Choice/node_choice_button.gd<>uid://b1stj4ljd2vo7::::res://addons/dialogic/Modules/Choice/node_button_sound.gd<>uid://b6c1p14bc20p1::::res://addons/dialogic/Example Assets/sound-effects/typing1.wav<>uid://c2viukvbub6v6::::res://addons/dialogic/Example Assets/sound-effects/typing4.wav
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/::1758921414
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 portrait_layer_icon.svg::CompressedTexture2D::396903176641995005::1758920915::1758921414::1::::<><><>0<>0<>82cca290296a85b49f679eb92e21ab67<>res://.godot/imported/portrait_layer_icon.svg-4bc8b0ebd4dd0977a12c09f30758d7e1.ctex::
 preview.png::CompressedTexture2D::1716235565247592445::1758920915::1758921414::1::::<><><>0<>0<>c2729cd46c613f803f222a0e4784f61b<>res://.godot/imported/preview.png-8a6dae1a8e205382d354326ea6961ed2.ctex::
 vn_portrait_layer.gd::GDScript::6441397668861425393::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 vn_portrait_layer.tscn::PackedScene::6512552610928516099::1758920915::0::1::::<><><>0<>0<><>::uid://cx1i44s2olq2d::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.gd<>uid://d0ptqnbudhkyj::::res://addons/dialogic/Modules/Character/node_portrait_container.gd
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/::1758921406
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/::1758921414
 animations.gd::GDScript::2743062498943148924::1758920915::0::1::::<>AnimationPlayer<><>0<>0<><>::
 autoadvance_indicator.gd::GDScript::3111754778462103162::1758920915::0::1::::<>Range<><>0<>0<><>::
 next.svg::CompressedTexture2D::4177175797267068132::1758920915::1758921405::1::::<><><>0<>0<>a868054b795c215c85d2111d1fd489d2<>res://.godot/imported/next.svg-689f85597f487815b8ddefa23d22bf6f.ctex::
@@ -471,15 +471,15 @@ vn_textbox_default_panel.tres::StyleBoxFlat::232532601972438331::1758920915::0::
 vn_textbox_layer.gd::GDScript::3220088025365174792::1758920915::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 vn_textbox_layer.tscn::PackedScene::3551277938196629571::1758920915::0::1::::<><><>0<>0<><>::uid://bl43m5qw8pso3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.gd<>uid://bfc03rn8slceu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/animations.gd<>uid://drhfq6rmdeuri::::res://addons/dialogic/Modules/Text/node_dialog_text.gd<>uid://dpv2dfiv5dhmr::::res://addons/dialogic/Modules/Text/node_type_sound.gd<>uid://dve1vwse2peji::::res://addons/dialogic/Modules/Text/node_next_indicator.gd<>uid://bklme8oymw6h7::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/autoadvance_indicator.gd<>uid://dkv1pl1c1dq6::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_default_panel.tres<>uid://b0rpqfg4fhebk::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/next.svg<>uid://bak74s0kcr0ao::::res://addons/dialogic/Modules/Text/node_name_label.gd<>uid://m7gyepkysu83::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_name_label_panel.tres
 vn_textbox_name_label_panel.tres::StyleBoxFlat::908733606549242590::1758920915::0::1::::<><><>0<>0<><>::
-::res://addons/dialogic/Modules/DefaultLayoutParts/Style_SpeakerTextbox/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_SpeakerTextbox/::1758921414
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::8025234003730989842::1758920915::1758921414::1::::<><><>0<>0<>e789d774bfa448227053772aad332072<>res://.godot/imported/preview.png-fffb64b5a80dfa536274e4a967369cfc.ctex::
 speaker_textbox_style.tres::Resource/DialogicStyle::7601804504371859326::1758920915::0::1::::<><><>0<>0<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
-::res://addons/dialogic/Modules/DefaultLayoutParts/Style_TextBubbles/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_TextBubbles/::1758921414
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::1244020212817713961::1758920915::1758921413::1::::<><><>0<>0<>c8c5e5be288af6cfedbdae799a4b303f<>res://.godot/imported/preview.png-566f98d1e24a8b079521a4925ee523c7.ctex::
 textbubble_style.tres::Resource/DialogicStyle::4178401552284372098::1758920915::0::1::::<><><>0<>0<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd<>uid://d2it0xiap3gnt::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
-::res://addons/dialogic/Modules/DefaultLayoutParts/Style_VN_Default/::1758920915
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_VN_Default/::1758921414
 default_vn_style.tres::Resource/DialogicStyle::2357056026045195210::1758920915::0::1::::<><><>0<>0<><>::uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn
 part_config.cfg::TextFile::-1::1758920915::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::1793830588723612143::1758920915::1758921414::1::::<><><>0<>0<>98e87f4af10c226a5e2d6d33f1b9b3d3<>res://.godot/imported/preview.png-d02c673e03782a715fbd3fbe644d96d1.ctex::
@@ -496,12 +496,12 @@ glossary_resource.gd::GDScript::2368103922453568519::1758920915::0::1::::Dialogi
 icon.svg::CompressedTexture2D::4540926883099757451::1758920915::1758921403::1::::<><><>0<>0<>6b8ec01f62a7446dc2d27372c86df6d5<>res://.godot/imported/icon.svg-4fc0c12c53379638e37d654e7bbaea1a.ctex::
 index.gd::GDScript::2316144666851169784::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 subsystem_glossary.gd::GDScript::247026517945896814::1758920915::0::1::::<>DialogicSubsystem<><>0<>0<><>::
-::res://addons/dialogic/Modules/HighlightPortrait/::1758920915
+::res://addons/dialogic/Modules/HighlightPortrait/::1758921413
 highlight_portrait_thumbnail.png::CompressedTexture2D::8533612531604451973::1758920915::1758921413::1::::<><><>0<>0<>ac89edf448e53e536a7cb8f07e9421d5<>res://.godot/imported/highlight_portrait_thumbnail.png-6fa128edf7f6ec29e7a5313b9c3e7412.ctex::
 index.gd::GDScript::1231353638722720319::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 simple_highlight_portrait.gd::GDScript::1955332441313060564::1758920915::0::1::::<>DialogicPortrait<><>0<>1<><>::
 simple_highlight_portrait.tscn::PackedScene::3635328490225322467::1758920915::0::1::::<><><>0<>0<><>::uid://24gbl2wbl1d5::::res://addons/dialogic/Modules/HighlightPortrait/simple_highlight_portrait.gd
-::res://addons/dialogic/Modules/History/::1758921407
+::res://addons/dialogic/Modules/History/::1758921414
 definition.svg::CompressedTexture2D::7977914867733989258::1758920915::1758921413::1::::<><><>0<>0<>540cbf62bf4155ce72cee9f327d7ae48<>res://.godot/imported/definition.svg-dbaabe55d84e4ad95047a50fc6c13843.ctex::
 event_history.gd::GDScript::8009990755402243851::1758920915::0::1::::DialogicHistoryEvent<>DialogicEvent<><>0<>1<><>::
 icon.svg::CompressedTexture2D::1853570986969252340::1758920915::1758921407::1::::<><><>0<>0<>d22f54bcc12a933ea9f7f019ab175854<>res://.godot/imported/icon.svg-82841efe3f86e947d4f66fd24dc8f52c.ctex::
@@ -518,7 +518,7 @@ icon_label.png::CompressedTexture2D::204052454782202907::1758920915::1758921407:
 icon_return.svg::CompressedTexture2D::747971600453106621::1758920915::1758921407::1::::<><><>0<>0<>92ce2b972ae7e1408d9f46b970e0c7bc<>res://.godot/imported/icon_return.svg-dc7fb704ff391638f73cbbc2b30b32fa.ctex::
 index.gd::GDScript::2097830043245355192::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 subsystem_jump.gd::GDScript::1606838518209006275::1758920915::0::1::::<>DialogicSubsystem<><>0<>0<><>::
-::res://addons/dialogic/Modules/LayeredPortrait/::1758920915
+::res://addons/dialogic/Modules/LayeredPortrait/::1758921414
 custom_layered_portrait.gd::GDScript::5169559263708309723::1758920915::0::1::::<>DialogicPortrait<><>0<>1<><>::
 index.gd::GDScript::2710537000667459862::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 layered_portrait.gd::GDScript::1152796135690574615::1758920915::0::1::::<>DialogicPortrait<><>0<>1<><>::
@@ -560,19 +560,19 @@ style_browser.gd::GDScript::8254378148364255810::1758920915::0::1::::<>Control<>
 style_browser.tscn::PackedScene::6096093685190146780::1758920915::0::1::::<><><>0<>0<><>::uid://dpuqnw4cshljm::::res://addons/dialogic/Modules/StyleEditor/Components/style_browser.gd
 style_browser_window.gd::GDScript::618262067274259983::1758920915::0::1::::<>Window<><>0<>1<><>::
 style_layer_tree.gd::GDScript::29966426795946382::1758920915::0::1::::<>Tree<><>0<>1<><>::
-::res://addons/dialogic/Modules/Text/::1758921408
+::res://addons/dialogic/Modules/Text/::1758921414
 auto_advance.gd::GDScript::5466054780940415268::1758920915::0::1::::DialogicAutoAdvance<>RefCounted<><>0<>0<><>::
 auto_skip.gd::GDScript::1429349321881129789::1758920915::0::1::::DialogicAutoSkip<>RefCounted<><>0<>0<><>::
 event_text.gd::GDScript::7199229198122971661::1758920915::0::1::::DialogicTextEvent<>DialogicEvent<><>0<>1<><>::
 icon.svg::CompressedTexture2D::9151163472776694991::1758920915::1758921408::1::::<><><>0<>0<>0fe1b3b3cf3733ead1d66ddc5726114c<>res://.godot/imported/icon.svg-e2501ddcdef01c7f2c3538940f5abfc1.ctex::
 index.gd::GDScript::3735692247776249690::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 manual_advance.gd::GDScript::7278833021501408885::1758920915::0::1::::DialogicManualAdvance<>RefCounted<><>0<>0<><>::
-node_dialog_text.gd::GDScript::8367256849905527338::1758920915::0::1::::DialogicNode_DialogText<>RichTextLabel<>res://addons/dialogic/Modules/Text/node_dialog_text_icon.svg<>0<>0<><>::
+node_dialog_text.gd::GDScript::8367256849905527338::1758920915::0::1::::DialogicNode_DialogText<>RichTextLabel<><>0<>0<><>::
 node_dialog_text_icon.svg::CompressedTexture2D::4044689466443943908::1758920915::1758921413::1::::<><><>0<>0<>0854d1eb256c2d7e9186a18e71c67bd8<>res://.godot/imported/node_dialog_text_icon.svg-3cf845e99d76137d8156865c09f39e3e.ctex::
 node_input.gd::GDScript::6135746528022206122::1758920915::0::1::::DialogicNode_Input<>Control<><>0<>0<><>::
-node_name_label.gd::GDScript::2409060177523604634::1758920915::0::1::::DialogicNode_NameLabel<>Label<>res://addons/dialogic/Modules/Text/node_name_label_icon.svg<>0<>0<><>::
+node_name_label.gd::GDScript::2409060177523604634::1758920915::0::1::::DialogicNode_NameLabel<>Label<><>0<>0<><>::
 node_name_label_icon.svg::CompressedTexture2D::753910208124862534::1758920915::1758921413::1::::<><><>0<>0<>a4c8bf4be7c45d309f0f460f60daff16<>res://.godot/imported/node_name_label_icon.svg-d482939b74b41ec2da6edc97e41c8bf8.ctex::
-node_next_indicator.gd::GDScript::8643102605516753138::1758920915::0::1::::DialogicNode_NextIndicator<>Control<>res://addons/dialogic/Modules/Text/node_next_indicator_icon.svg<>0<>0<><>::
+node_next_indicator.gd::GDScript::8643102605516753138::1758920915::0::1::::DialogicNode_NextIndicator<>Control<><>0<>0<><>::
 node_next_indicator_icon.svg::CompressedTexture2D::302873534409359568::1758920915::1758921413::1::::<><><>0<>0<>b19c8f494620393de69e28f29117e8d0<>res://.godot/imported/node_next_indicator_icon.svg-06167a3b3e290941c1c34386ebd60af8.ctex::
 node_type_sound.gd::GDScript::8257091630640999901::1758920915::0::1::::DialogicNode_TypeSounds<>AudioStreamPlayer<><>0<>1<><>::
 settings_text.gd::GDScript::5031029662621467051::1758920915::0::1::::<>DialogicSettingsPage<><>0<>1<><>::
@@ -589,7 +589,7 @@ icon.png::CompressedTexture2D::8941053882979023594::1758920915::1758921408::1:::
 index.gd::GDScript::27167336643688685::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 node_text_input.gd::GDScript::2981889446268623555::1758920915::0::1::::DialogicNode_TextInput<>Control<><>0<>0<><>::
 subsystem_text_input.gd::GDScript::1935382475641866053::1758920915::0::1::::<>DialogicSubsystem<><>0<>0<><>::
-::res://addons/dialogic/Modules/Variable/::1758921408
+::res://addons/dialogic/Modules/Variable/::1758921414
 add-variable.svg::CompressedTexture2D::1138705662028104178::1758920915::1758921413::1::::<><><>0<>0<>9d630fcd8ddcb95c0ca3169d3c21d3af<>res://.godot/imported/add-variable.svg-26eb3bd7fac746c574d054e8416d3aac.ctex::
 event_variable.gd::GDScript::3119550229362804886::1758920915::0::1::::DialogicVariableEvent<>DialogicEvent<><>0<>1<><>::
 icon.png::CompressedTexture2D::1655383244634406440::1758920915::1758921408::1::::<><><>0<>0<>6a015eb247c8daefff4fbcff1a8e47ec<>res://.godot/imported/icon.png-99064bb3920f49262c581fccbfcfc353.ctex::
@@ -614,7 +614,7 @@ event_wait_input.gd::GDScript::2473881298755643258::1758920915::0::1::::Dialogic
 icon.svg::CompressedTexture2D::2766149336681406939::1758920915::1758921408::1::::<><><>0<>0<>35002bf1f4e75410313770867b7720c7<>res://.godot/imported/icon.svg-cb8e50b081a310c64183b12c6d12fcf2.ctex::
 index.gd::GDScript::971839668851566764::1758920915::0::1::::<>DialogicIndexer<><>0<>1<><>::
 ::res://addons/dialogic/Resources/::1758920915
-character.gd::GDScript::8170509915016804394::1758920915::0::1::::DialogicCharacter<>Resource<>uid://bbea0efx0ybu7<>0<>1<><>::
+character.gd::GDScript::8170509915016804394::1758920915::0::1::::DialogicCharacter<>Resource<><>0<>1<><>::
 CharacterResourceLoader.gd::GDScript::3230683283296700613::1758920915::0::1::::DialogicCharacterFormatLoader<>ResourceFormatLoader<><>0<>1<><>::
 CharacterResourceSaver.gd::GDScript::11330996335859447::1758920915::0::1::::DialogicCharacterFormatSaver<>ResourceFormatSaver<><>0<>1<><>::
 dialogic_identifiable_resource.gd::GDScript::7504157656011423462::1758920915::0::1::::<>Resource<><>0<>1<><>::
@@ -623,27 +623,27 @@ dialogic_layout_layer.gd::GDScript::7097085608305494937::1758920915::0::1::::Dia
 dialogic_style.gd::GDScript::8686860375682204498::1758920915::0::1::::DialogicStyle<>Resource<><>0<>1<><>::
 dialogic_style_layer.gd::GDScript::3944887282532454131::1758920915::0::1::::DialogicStyleLayer<>Resource<><>0<>1<><>::
 event.gd::GDScript::8763588563558386910::1758920915::0::1::::DialogicEvent<>Resource<><>0<>1<><>::
-timeline.gd::GDScript::5667425671830628919::1758920915::0::1::::DialogicTimeline<>Resource<>uid://j7ym07anlusi<>0<>1<><>::
+timeline.gd::GDScript::5667425671830628919::1758920915::0::1::::DialogicTimeline<>Resource<><>0<>1<><>::
 TimelineResourceLoader.gd::GDScript::1953327801557244659::1758920915::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<><>0<>1<><>::
 TimelineResourceSaver.gd::GDScript::6005903703142383367::1758920915::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<><>0<>1<><>::
 ::res://art/::1758920915
-::res://art/Background/::1758920915
+::res://art/Background/::1758921417
 titleScreenReference-GoodbyeWorld.PNG::CompressedTexture2D/CompressedTexture2D::5457540215851091220::1758920915::1758921417::1::::<><><>0<>0<>d1a1f9aa6bd56584836c19004a0ee997<>res://.godot/imported/titleScreenReference-GoodbyeWorld.PNG-06e1ce73353f3862801ecd7b64a94ac1.ctex::
 WPISplash.png::CompressedTexture2D/CompressedTexture2D::4829754306350887814::1758920915::1758921415::1::::<><><>0<>0<>ecc88d4b2c0160b07f7c6b3952b4cd9b<>res://.godot/imported/WPISplash.png-59923d87834cd7c82b1af72f346014ac.ctex::
-::res://art/Environment/::1758920915
+::res://art/Environment/::1758921414
 GoodbyeWorld ground.png::CompressedTexture2D/CompressedTexture2D::1230350929193102451::1758920915::1758921413::1::::<><><>0<>0<>1dfc5339257ad20875882840f58c0dcc<>res://.godot/imported/GoodbyeWorld ground.png-0f282ef3fb8e98b6d4f7e595cefd11b3.ctex::
 tree1green.PNG::CompressedTexture2D/CompressedTexture2D::9065516024643080907::1758920915::1758921413::1::::<><><>0<>0<>8701bd458b808e2b49234debc80817fd<>res://.godot/imported/tree1green.PNG-8e9e95b0aa2224eb032f94ec78bcff44.ctex::
 tree1lime.PNG::CompressedTexture2D/CompressedTexture2D::2346253907442556537::1758920915::1758921413::1::::<><><>0<>0<>322582b06ae57264c4f8376df13370ed<>res://.godot/imported/tree1lime.PNG-e56063e96f43f0759c8213951bab12e7.ctex::
 tree1pink.PNG::CompressedTexture2D/CompressedTexture2D::6116225972791200187::1758920915::1758921414::1::::<><><>0<>0<>1aaea04f0a5e71b9c34a238a9f0918c6<>res://.godot/imported/tree1pink.PNG-23c3da292e5a0e59e600298383c8fd72.ctex::
 tree1purple.PNG::CompressedTexture2D/CompressedTexture2D::3398827004630057877::1758920915::1758921414::1::::<><><>0<>0<>64a5ef9a3b5269ca53cdc5d5efea557c<>res://.godot/imported/tree1purple.PNG-89577c2b71ae963208fc45a6ff1bc8b8.ctex::
-::res://art/Sprites/::1758920915
+::res://art/Sprites/::1758921414
 SorenFrontAttack.png::CompressedTexture2D/CompressedTexture2D::8366538385360606027::1758920915::1758921414::1::::<><><>0<>0<>bc88222b0cc709dbf71aec37194fad47<>res://.godot/imported/SorenFrontAttack.png-29509247b5fd7670326c5611f7b51044.ctex::
 SorenIdle.png::CompressedTexture2D/CompressedTexture2D::8038433562585718062::1758920915::1758921414::1::::<><><>0<>0<>79b62f795734d14a6cdee7e051c7ff9b<>res://.godot/imported/SorenIdle.png-0baf3b521359f045dea77eefce7e5c40.ctex::
 SorenRun.png::CompressedTexture2D/CompressedTexture2D::151104384808091813::1758920915::1758921414::1::::<><><>0<>0<>744878adf0656ac1f62d049f31f711e3<>res://.godot/imported/SorenRun.png-2387fe38301aa52df7d268019a89e113.ctex::
 SorenRunSideView.png::CompressedTexture2D/CompressedTexture2D::4183270760188181647::1758920915::1758921414::1::::<><><>0<>0<>c0505cc9256fa6d09a2dab0dbb891efc<>res://.godot/imported/SorenRunSideView.png-5447286bfb74408e5025a25deec30fcb.ctex::
 SorenSideAttack.png::CompressedTexture2D/CompressedTexture2D::4686812442229469880::1758920915::1758921414::1::::<><><>0<>0<>6679861c9add98f90c11261cc41b7dba<>res://.godot/imported/SorenSideAttack.png-558e682ed5ffbf53eeb6bbb136e4fd01.ctex::
 SorenSideIdle.png::CompressedTexture2D/CompressedTexture2D::396585529506158911::1758920915::1758921414::1::::<><><>0<>0<>40a5314546d529f9c9426a4119bf0011<>res://.godot/imported/SorenSideIdle.png-1c820806b5a121d4d6cd24bac48f9a77.ctex::
-::res://art/TutorialArt/::1758920915
+::res://art/TutorialArt/::1758921415
 decor_8x8.png::CompressedTexture2D/CompressedTexture2D::8728255860622646655::1758920915::1758921414::1::::<><><>0<>0<>826d693c3bf104244fecf72de3b7f7e7<>res://.godot/imported/decor_8x8.png-d6d491fe64c9f0228245dd114209fb10.ctex::
 decor_16x16.png::CompressedTexture2D/CompressedTexture2D::706693964210602239::1758920915::1758921414::1::::<><><>0<>0<>a77466b2230d23c280a034e2041726a1<>res://.godot/imported/decor_16x16.png-a52bf379ec15a2fb2925be7cdc2776d4.ctex::
 dust_particles_01.png::CompressedTexture2D/CompressedTexture2D::4189501882156730359::1758920915::1758921414::1::::<><><>0<>0<>6a4d3bba574f93554c8a45af99cd379f<>res://.godot/imported/dust_particles_01.png-4e0e1df6c5518d416b78dfa468454594.ctex::
@@ -654,7 +654,7 @@ objects.png::CompressedTexture2D/CompressedTexture2D::7764076713753736165::17589
 plains.png::CompressedTexture2D/CompressedTexture2D::9215413700832928849::1758920915::1758921414::1::::<><><>0<>0<>5fdf4d4e9ff53ffd8dff97229ab1380e<>res://.godot/imported/plains.png-ae100817f55104b1479b3056d1916aff.ctex::
 player.png::CompressedTexture2D/CompressedTexture2D::7374292261902067700::1758920915::1758921414::1::::<><><>0<>0<>eb66f67fdc5e8a195d6cbea0bcd0feef<>res://.godot/imported/player.png-0f3590f8df519ec942d771e0f2b26ec7.ctex::
 slime.png::CompressedTexture2D/CompressedTexture2D::5650303644453487461::1758920915::1758921414::1::::<><><>0<>0<>0c965181d4fafbfbbfaecf5ba0bea421<>res://.godot/imported/slime.png-8af4ca0ab00981f05a46c487b032d570.ctex::
-::res://art/UI/::1758920915
+::res://art/UI/::1758921417
 selectedCreditsButton.jpg::CompressedTexture2D/CompressedTexture2D::6058279606488167574::1758920915::1758921414::1::::<><><>0<>0<>03a4348ac2674e45411a0ded2a885e2b<>res://.godot/imported/selectedCreditsButton.jpg-6690b677af245315ebdca4f1654299db.ctex::
 selectedCreditsButton.PNG::CompressedTexture2D/CompressedTexture2D::4755532343729627078::1758920915::1758921415::1::::<><><>0<>0<>cf58e343a23dc9f22fecca976d2027bb<>res://.godot/imported/selectedCreditsButton.PNG-1fb844eebe68ce4b90d7a1e2c4ecb4f3.ctex::
 selectedPlayButton-GoodbyeWorld.jpg::CompressedTexture2D/CompressedTexture2D::2723347809949305626::1758920915::1758921414::1::::<><><>0<>0<>31afadd4947af829cf0d465c898d0ed2<>res://.godot/imported/selectedPlayButton-GoodbyeWorld.jpg-18a99483c2436498686b1afc037c12b0.ctex::
@@ -674,34 +674,36 @@ unselectedVerNotesButton.jpg::CompressedTexture2D/CompressedTexture2D::687010000
 unselectedVerNotesButton.PNG::CompressedTexture2D/CompressedTexture2D::3254089705345487811::1758920915::1758921415::1::::<><><>0<>0<>385401e523e62a5d0b89fbeca82b0b66<>res://.godot/imported/unselectedVerNotesButton.PNG-c11bb99bd7a20e3a0a50bdd37c6afc47.ctex::
 WPISplash.png::CompressedTexture2D/CompressedTexture2D::5077936690752198584::1758920915::1758921416::1::::<><><>0<>0<>b5b4961957740aaef47621b67f8059dd<>res://.godot/imported/WPISplash.png-7f1bf8e1feebdbf49502a379558ae06e.ctex::
 ::res://Dialogue/::1758920914
-::res://Dialogue/Boxes/::1758920914
-newbox.tres::Resource/DialogicStyle::8734621601706047432::1758920914::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
+::res://Dialogue/Boxes/::1758921471
+newbox.tres::Resource/DialogicStyle::8734621601706047432::1758921471::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
 ::res://Dialogue/Characters/::1758920914
-Soren.dch::Resource/DialogicCharacter::6800968276778232875::1758920914::0::1::::<><><>0<>0<><>::res://art/Sprites/SorenRun.png
+Soren.dch::Resource/DialogicCharacter::6800968276778232875::1758920914::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://art/Sprites/SorenRun.png
 ::res://Dialogue/Timelines/::1758920914
-timeline.dtl::Resource/DialogicTimeline::5458353777386326506::1758920914::0::1::::<><><>0<>0<><>::uid://c35o7oxqm6qhf
-::res://MusicFiles/::1758921403
+timeline.dtl::Resource/DialogicTimeline::5458353777386326506::1758920914::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf
+::res://MusicFiles/::1758924065
 A Thousand Archives, Forever Lost to Time.mp3::AudioStreamMP3/AudioStreamMP3::5117996927725704115::1758920914::1758921413::1::::<><><>0<>0<>fe3743f4e8ab1edcb53369f67244e0dd<>res://.godot/imported/A Thousand Archives, Forever Lost to Time.mp3-978198dd8fb92b824f06b1e6d130b5fb.mp3str::
 Does This Sound Minecraft Enough.mp3::AudioStreamMP3/AudioStreamMP3::4385824492013585039::1758920914::1758921413::1::::<><><>0<>0<>b0062693b0e3236bf2e6b26715c39392<>res://.godot/imported/Does This Sound Minecraft Enough.mp3-0229f505ff681181f5a92472726a1651.mp3str::
 Dragon Smasher.mp3::AudioStreamMP3/AudioStreamMP3::94008005783155804::1758920914::1758921403::1::::<><><>0<>0<>8759bb4ed84b8b1000c625909d9004d1<>res://.godot/imported/Dragon Smasher.mp3-a3f6eb03337872171f24ae7cc916d8f1.mp3str::
 Head Empty.mp3::AudioStreamMP3/AudioStreamMP3::2272298389784786945::1758920914::1758921413::1::::<><><>0<>0<>1bf15271751abfce119f2e0f723c43b0<>res://.godot/imported/Head Empty.mp3-59a0928156f4897275c58fcf12ad5f93.mp3str::
-::res://Scenes/::1758920915
+sword_slash.mp3::AudioStreamMP3::1818992109093727229::1758924065::1758924066::1::::<><><>0<>0<>58a3f1dd0cf36dc97f3383eeb061ca7f<>res://.godot/imported/sword_slash.mp3-01b5041373796f5327da96f992956196.mp3str::
+::res://Scenes/::1758923855
 audio_controller.tscn::PackedScene::7399593995549728171::1758920915::0::1::::<><><>0<>0<><>::uid://b30qyrdy6yynd::::res://scripts/audio_controller.gd<>uid://blskevlfv1oa::::res://MusicFiles/Dragon Smasher.mp3
 credits.tscn::PackedScene::426061793125689957::1758920914::0::1::::<><><>0<>0<><>::uid://clbqclo8ib8mn::::res://scripts/credits.gd
-enemy.tscn::PackedScene::6427199464140068306::1758920915::0::1::::<><><>0<>0<><>::uid://cmrbw75a6ljdt::::res://art/TutorialArt/slime.png<>uid://dcdtape5tqllw::::res://scripts/enemy.gd
-player.tscn::PackedScene::1939878156375805415::1758920914::0::1::::<><><>0<>0<><>::uid://podkvv2cp5mj::::res://scripts/player.gd<>uid://drg2wus5coui2::::res://art/Sprites/SorenFrontAttack.png<>uid://dmr43dix3noos::::res://art/Sprites/SorenIdle.png<>uid://cfgwxhk0tyin::::res://art/Sprites/SorenRun.png<>uid://b71ld7kami33q::::res://art/Sprites/SorenSideAttack.png<>uid://fwdx828gxejf::::res://art/Sprites/SorenSideIdle.png<>uid://b0un4geeys0xn::::res://art/Sprites/SorenRunSideView.png
+enemy.tscn::PackedScene::6427199464140068306::1758922843::0::1::::<><><>0<>0<><>::uid://cmrbw75a6ljdt::::res://art/TutorialArt/slime.png<>uid://dcdtape5tqllw::::res://Scripts/enemy.gd<>uid://kptoqwunisyy::::res://scenes/enemy_hit_flash.gdshader
+player.tscn::PackedScene::1939878156375805415::1758923855::0::1::::<><><>0<>0<><>::uid://podkvv2cp5mj::::res://Scripts/player.gd<>uid://drg2wus5coui2::::res://art/Sprites/SorenFrontAttack.png<>uid://dmr43dix3noos::::res://art/Sprites/SorenIdle.png<>uid://cfgwxhk0tyin::::res://art/Sprites/SorenRun.png<>uid://b71ld7kami33q::::res://art/Sprites/SorenSideAttack.png<>uid://fwdx828gxejf::::res://art/Sprites/SorenSideIdle.png<>uid://b0un4geeys0xn::::res://art/Sprites/SorenRunSideView.png<>uid://bw250ajcht0j3::::res://MusicFiles/sword_slash.wav
+enemy_hit_flash.gdshader::Shader::734033601954168224::1758922058::0::1::::<><><>0<>0<><>::
 settings.tscn::PackedScene::5700526166480412859::1758920915::0::1::::<><><>0<>0<><>::uid://bym3a1vi4j2dm::::res://Scripts/settings.gd
 title_screen.tscn::PackedScene::1631125973563563537::1758920914::0::1::::<><><>0<>0<><>::uid://b8cj2c5oj8rnx::::res://Scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://art/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://bmmkm8u4gl604::::res://art/UI/unselectedVerNotesButton.PNG<>uid://ca2jo5r7a0yrw::::res://art/UI/unselectedQuitButton.PNG<>uid://bldu1mrbxxq6e::::res://art/UI/unselectedCreditsButton.PNG
 version_notes.tscn::PackedScene::7078280800538675459::1758920914::0::1::::<><><>0<>0<><>::uid://cg3t38xgxeg32::::res://Scripts/version_notes.gd
 volumecount.gd::GDScript::4237393286829450576::1758920915::0::1::::<>Label<><>0<>0<><>::
 world.tscn::PackedScene::8731724331218117591::1758920915::0::1::::<><><>0<>0<><>::uid://d4kart7sn3a4h::::res://art/TutorialArt/plains.png<>uid://btc57mfqgpcjy::::res://Scripts/world.gd<>uid://tb404mr8vdh1::::res://art/TutorialArt/grass.png<>uid://rr8x2iwno8ot::::res://art/Environment/GoodbyeWorld ground.png<>uid://diu8hd0vtqxhl::::res://art/TutorialArt/objects.png<>uid://2vxrll2fnmvv::::res://Scenes/player.tscn<>uid://cxtnbh1160sas::::res://Scenes/enemy.tscn
-::res://Scripts/::1758920915
+::res://Scripts/::1758923856
 audio_controller.gd::GDScript::4404332979011696909::1758920915::0::1::::<>Node<><>0<>0<><>::
 control.gd::GDScript::4707376100666892525::1758920914::0::1::::<>Control<><>0<>0<><>::
 credits.gd::GDScript::5547958669524942289::1758920914::0::1::::<>Control<><>0<>0<><>::
-enemy.gd::GDScript::7306987289898674984::1758920915::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.gd::GDScript::7306987289898674984::1758922843::0::1::::<>CharacterBody2D<><>0<>0<><>::
 global.gd::GDScript::9147265535795929038::1758920915::0::1::::<>Node<><>0<>0<><>::
-player.gd::GDScript::1081935088705970513::1758920914::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::1081935088705970513::1758923856::0::1::::<>CharacterBody2D<><>0<>0<><>::
 settings.gd::GDScript::4097426938302675254::1758920915::0::1::::<>Control<><>0<>0<><>::
 version_notes.gd::GDScript::5252982400524539771::1758920914::0::1::::<>Control<><>0<>0<><>::
 world.gd::GDScript::3726016762251587306::1758920915::0::1::::<>Node2D<><>0<>0<><>::
