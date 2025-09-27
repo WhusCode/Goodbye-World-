@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cmrbw75a6ljdt" path="res://art/TutorialArt/slime.png" id="1_fnqhf"]
 [ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://Scripts/enemy.gd" id="1_md0e3"]
-[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
+[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://Scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5uy6h"]
 shader = ExtResource("2_4ra3w")

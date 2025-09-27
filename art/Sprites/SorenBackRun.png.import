@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c53yjrxmhmgh"
-path="res://.godot/imported/icon_label.png-3923bd1131990c8869923c838ffdb9ae.ctex"
+uid="uid://bk1tuu1c65rt3"
+path="res://.godot/imported/SorenBackRun.png-61999fdcb9c7a58dea02112c28094888.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Modules/Jump/icon_label.png"
-dest_files=["res://.godot/imported/icon_label.png-3923bd1131990c8869923c838ffdb9ae.ctex"]
+source_file="res://art/Sprites/SorenBackRun.png"
+dest_files=["res://.godot/imported/SorenBackRun.png-61999fdcb9c7a58dea02112c28094888.ctex"]
 
 [params]
 

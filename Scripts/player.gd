@@ -74,10 +74,10 @@ func play_anim(movement):
 	if dir == "up":
 		anim.flip_h = false
 		if movement == 1:
-			anim.play("frontRun")
+			anim.play("backRun")
 		elif movement == 0:
 			if attack_ip == false:
-				anim.play("frontIdle")
+				anim.play("backIdle")
 	if dir == "down":
 		anim.flip_h = false
 		if movement == 1:
@@ -116,17 +116,17 @@ func attack():
 		attack_ip = true
 		if dir == "right":
 			$AnimatedSprite2D.flip_h = false
-			$AnimatedSprite2D.play("side_attack")
+			$AnimatedSprite2D.play("sideAttack")
 			
 		if dir == "left":
 			$AnimatedSprite2D.flip_h = true
-			$AnimatedSprite2D.play("side_attack")
+			$AnimatedSprite2D.play("sideAttack")
 			
 		if dir == "down":
 			$AnimatedSprite2D.play("frontAttack")
 
 		if dir == "up":
-			$AnimatedSprite2D.play("back_attack")
+			$AnimatedSprite2D.play("backAttack")
 			
 		# play sword_slash audio wioth random pitch
 		
