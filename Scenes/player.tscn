@@ -1,6 +1,6 @@
 [gd_scene load_steps=63 format=3 uid="uid://2vxrll2fnmvv"]
 
-[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://Scripts/player.gd" id="1_yg3w4"]
+[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://scripts/player.gd" id="1_yg3w4"]
 [ext_resource type="Texture2D" uid="uid://b10fp67hvyk5t" path="res://art/Sprites/SorenBackAttack.png" id="2_d2wvv"]
 [ext_resource type="Texture2D" uid="uid://drg2wus5coui2" path="res://art/Sprites/SorenFrontAttack.png" id="2_qhqgy"]
 [ext_resource type="Texture2D" uid="uid://ctln0ujp3p8fe" path="res://art/Sprites/SorenBackIdle.png" id="3_3v2ag"]
@@ -418,10 +418,11 @@ process_callback = 0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -11)
 sprite_frames = SubResource("SpriteFrames_ur7pv")
-animation = &"frontIdle"
+animation = &"sideAttack"
 autoplay = "frontIdle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(0, -7)
 shape = SubResource("CapsuleShape2D_fjrip")
 
@@ -429,6 +430,7 @@ shape = SubResource("CapsuleShape2D_fjrip")
 position = Vector2(0, -4)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player_hitbox"]
+visible = false
 position = Vector2(0, -7)
 shape = SubResource("CapsuleShape2D_smehm")
 
@@ -440,7 +442,9 @@ wait_time = 0.5
 [node name="melee_swing" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(0, -11)
 stream = ExtResource("8_smehm")
-volume_db = 5.0
+volume_db = 24.0
+attenuation = 0.45062512
+max_polyphony = 2
 
 [connection signal="body_entered" from="player_hitbox" to="." method="_on_player_hitbox_body_entered"]
 [connection signal="body_exited" from="player_hitbox" to="." method="_on_player_hitbox_body_exited"]

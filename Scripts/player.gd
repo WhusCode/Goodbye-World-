@@ -9,7 +9,7 @@ const speed = 100
 var current_dir = "none"
 
 func _ready() -> void:
-	$AnimatedSprite2D.play("idle")
+	$AnimatedSprite2D.play("frontIdle")
 	
 func _physics_process(delta):
 	player_movement(delta)
@@ -103,6 +103,8 @@ func enemy_attack():
 		enemy_attack_cd = false
 		$attack_cd.start()
 		print(health)
+		if health == 0:
+			die()
 
 
 func _on_attack_cd_timeout():
@@ -111,7 +113,7 @@ func _on_attack_cd_timeout():
 func attack():
 	var dir = current_dir
 	
-	if Input.is_action_just_pressed("attack"):
+	if Input.is_action_just_pressed("attack") and Global.player_current_attack == false:
 		Global.player_current_attack = true
 		attack_ip = true
 		if dir == "right":
@@ -141,5 +143,8 @@ func _on_deal_attack_timer_timeout():
 	$deal_attack_timer.stop()
 	Global.player_current_attack = false
 	attack_ip = false
+	
+func die():
+	queue_free()
 	
 	

@@ -14,7 +14,7 @@ func _physics_process(delta):
 	if player_chase:
 		if position.distance_to(player.position) > 10:
 			position+=(player.position-position)/speed
-			$AnimatedSprite2D.play("side_walk")
+			$AnimatedSprite2D.play("walk")
 			if (player.position.x-position.x)<0:
 				$AnimatedSprite2D.flip_h=true
 			else:
