@@ -42,14 +42,8 @@ layout/default_style="res://Dialogue/Boxes/newbox.tres"
 [display]
 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-=======
-window/size/viewport_width=2560
-window/size/viewport_height=1440
-window/size/mode=3
->>>>>>> Stashed changes
 =======
 window/size/viewport_width=2560
 window/size/viewport_height=1440
