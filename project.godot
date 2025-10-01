@@ -33,6 +33,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "CassandraBossFight": "res://Dialogue/Timelines/CassandraBossFight.dtl",
+"CassandraDefeated": "res://Dialogue/Timelines/CassandraDefeated.dtl",
 "LearnAboutCassandra": "res://Dialogue/Timelines/LearnAboutCassandra.dtl",
 "MeetSorenAndControls": "res://Dialogue/Timelines/MeetSorenAndControls.dtl",
 "OpeningNarrTL": "res://Dialogue/Characters/OpeningNarrTL.dtl",
@@ -41,10 +42,9 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://Dialogue/Boxes/newbox.tres",
-"narratorText": "res://Dialogue/Boxes/narratorText.tres",
 "newbox": "res://Dialogue/Boxes/newbox.tres"
 }
-layout/style_list=["res://Dialogue/Boxes/newbox.tres", "res://Dialogue/Boxes/narratorText.tres"]
+layout/style_list=["res://Dialogue/Boxes/newbox.tres"]
 layout/default_style="res://Dialogue/Boxes/newbox.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

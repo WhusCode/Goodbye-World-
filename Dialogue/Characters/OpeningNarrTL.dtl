@@ -1,4 +1,5 @@
 Narrator: In a wondrous, beautiful world, where [i]magic[/i] is woven into the very threads of every corner of the universe, something is starting to [i]shift…[/i]
 Narrator: [i]Robots, droids, and machines[/i] have been spotted across the realm, bringing [i]destruction and chaos[/i] wherever they go.  They seem to be particularly hostile toward magic users.  There’s no telling when they’ll stop.
 Narrator: This world… you call it [i]home[/i].  And your home needs a protector… no, it needs a [i]savior[/i].  Will that savior be [i]you, Soren[/i]?
+[signal arg="OpeningDone"]
 [end_timeline]

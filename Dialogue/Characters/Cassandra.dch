@@ -10,12 +10,22 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "CassPlaceholder",
 &"description": "evil",
 &"display_name": "Cassandra",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"CassPlaceholder": {
+"export_overrides": {
+"image": "\"res://art/TutorialArt/icon.svg\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.4,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

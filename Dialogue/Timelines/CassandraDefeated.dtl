@@ -1,0 +1,14 @@
+join Cassandra right [animation="Slide From Right" length="0.7"]
+join Soren left [animation="Slide From Left" length="0.7"]
+Cassandra: “Ngh… You- you win…”
+Soren: “...”
+Soren: “You could’ve used your machines for doing good, you know.”
+Cassandra: “...”
+Cassandra: (sighs) “You… aren’t wrong, Soren.  I see that now.  Though far too late.”
+Cassandra: “...Goodbye, World.”
+leave Cassandra [animation="Fade Out Down" length="1.0"]
+Narrator: [i]Cassandra’s eyes close, once and for all.[/i]
+Narrator: [i] With the threat to the forest gone, magic may flourish once more.[/i]
+Narrator: [i]You’ve done it.  You’ve saved this world.[/i]
+Narrator: [i] Thank you, and goodbye…[/i]
+leave Soren [animation="Fade Out Down"]
