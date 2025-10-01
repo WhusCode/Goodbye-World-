@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ::res://::1759273886
 ::res://addons/::1759258345
 ::res://addons/dialogic/::1759258345
@@ -723,6 +724,8 @@ settings.gd::GDScript::4097426938302675254::1758763071::0::1::::<>Control<><>0<>
 version_notes.gd::GDScript::5252982400524539771::1758142139::0::1::::<>Control<><>0<>0<><>::
 world.gd::GDScript::3726016762251587306::1758671271::0::1::::<>Node2D<><>0<>0<><>::
 =======
+=======
+>>>>>>> Stashed changes
 ::res://::1759090251
 ::res://addons/::1759007485
 ::res://addons/dialogic/::1759007485
@@ -1434,4 +1437,7 @@ player.gd::GDScript/GDScript::1081935088705970513::1759008666::0::1::::<>Charact
 settings.gd::GDScript/GDScript::4097426938302675254::1758845380::0::1::::<>Control<><>0<>0<><>::
 version_notes.gd::GDScript/GDScript::5252982400524539771::1758119483::0::1::::<>Control<><>0<>0<><>::
 world.gd::GDScript/GDScript::3726016762251587306::1758741341::0::1::::<>Node2D<><>0<>0<><>::
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
