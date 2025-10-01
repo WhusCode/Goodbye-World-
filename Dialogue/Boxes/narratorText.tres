@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=6 format=3 uid="uid://dl3t7w6dq7leg"]
+
+[ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_gwfja"]
+[ext_resource type="Script" uid="uid://dv08k6ljua6fm" path="res://addons/dialogic/Resources/dialogic_style.gd" id="2_k5jo6"]
+[ext_resource type="PackedScene" uid="uid://bquja8jyk8kbr" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn" id="2_t0cki"]
+
+[sub_resource type="Resource" id="Resource_t0cki"]
+script = ExtResource("1_gwfja")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_y7sgc"]
+script = ExtResource("1_gwfja")
+scene = ExtResource("2_t0cki")
+overrides = {
+"text_custom_color": "Color(0.820908, 0.826563, 0.886719, 1)"
+}
+
+[resource]
+script = ExtResource("2_k5jo6")
+name = "narratorText"
+layer_list = Array[String](["10"])
+layer_info = {
+"": SubResource("Resource_t0cki"),
+"10": SubResource("Resource_y7sgc")
+}
+base_overrides = {}
+layers = Array[ExtResource("1_gwfja")]([])
+metadata/_latest_layer = "10"

@@ -1,0 +1,23 @@
+join Soren left [animation="Slide From Left"]
+join Cassandra center
+Soren: [i] It's her.  Cassandra. [/i]
+Soren: [i] To stop her creations...[/i]
+Soren: [i] I have to stop her!! [/i]
+Cassandra: “We meet at last, Bladesinger.”
+Cassandra: “I’ve grown awfully tired of having to repair my creations, you know.”
+Cassandra: “Did no one ever teach you not to touch things that don’t belong to you?”
+Soren: “Did no one ever teach [i]you[/i] that unleashing chaos is an evil thing to do?”
+Cassandra: “Watch your mouth, Bladesinger.”
+Soren: “I have a name, you know.  It’s Soren.”
+Cassandra: “Pfft. As if I care.”
+Soren: “Why do all this, anyway?  You’re only hurting people.”
+Cassandra: “Like you’d understand.  I had to.”
+Soren: “Had to? Why?”
+Cassandra: “To prove myself! Do you have any idea how frustrating it is to be an engineer when magic exists?”
+Cassandra: “You don’t, so I’ll fill you in.  Think of every person you know, and then imagine them telling you you’re wasting your time.  Constantly.”
+Cassandra: “‘Oh, Cass, that’s useless, just use magic!’ Every. Single. Day.”
+Cassandra: “I’m proving them wrong.”
+Cassandra: “And I won’t let YOU get in my way!”
+leave Soren [animation="Slide To Left"]
+leave Cassandra
+[end_timeline]

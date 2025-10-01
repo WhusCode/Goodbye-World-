@@ -1,0 +1,10 @@
+join Soren left [animation="Slide From Left"]
+Narrator: [i]As Soren incapacitates the droid, a glint of something catches his eye.[/i]
+Narrator: [i]Crouching down to examine the droid, he takes a closer look.[/i]
+Narrator: [i]He notices a small engraving on the droid, reading 'Property of Cassandra.  If lost, please return.'[/i]
+Soren: “Cassandra, hmm?  That must be who’s behind this whole thing.”
+Soren: [i]If I can defeat the inventor, then the inventions will stop, right?[/i]
+Soren: [i]And my home will be safe again.[/i]
+Soren: [i]I should try to get stronger.  There’s no telling what lies ahead.[/i]
+leave Soren [animation="Slide To Left"]
+[end_timeline]
