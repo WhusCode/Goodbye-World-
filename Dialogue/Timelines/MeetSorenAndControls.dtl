@@ -1,9 +1,9 @@
-join Soren left [animation="Slide From Left"]
+join Soren right [animation="Slide From Right"]
 Soren: [i]The droids have been popping up more frequently as of late.  I’ve seen at least one each day for several days, now.[/i]
 Soren: [i]I'm getting tired of it.[/i]
 Narrator: [i] Soren's ears twitch.  He hears a droid up ahead. [/i]
 Soren: (sighs) "As if on cue..."
 Soren: "STAY OUT OF MY HOME!"
-leave Soren [animation="Slide To Left"]
+leave Soren [animation="Slide To Right"]
 Narrator: [i]Use WASD to move around, and left click to swing your sword.  The world needs you, Soren!
 [end_timeline]

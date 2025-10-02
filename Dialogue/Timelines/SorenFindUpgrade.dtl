@@ -1,9 +1,9 @@
-join Soren left [animation="Slide From Left"]
+join Soren right [animation="Slide From Right"]
 Soren: [i]A crystal?[/i]
 Soren: [i]I've heard stories about people getting stronger if they find these crystals![/i]
 Narrator: [i]Soren reaches out and touches the crystal.[/i]
 Soren: [i]Huh.  I really do feel stronger now![/i]
-leave Soren [animation="Slide To Left"]
+leave Soren [animation="Slide To Right"]
 Narrator: [i]New Spell Upgrade\: Blue Fireball![/i]\
 Your fireball spell now deals more damage and has a larger hitbox.  And it’s blue now, sweet!
 [end_timeline]

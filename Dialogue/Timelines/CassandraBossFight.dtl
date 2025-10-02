@@ -1,5 +1,5 @@
-join Soren left [animation="Slide From Left" length="0.7"]
-join Cassandra right [animation="Slide From Right" length="1.0" wait="true"]
+join Soren right [animation="Slide From Right" length="0.7"]
+join Cassandra left [animation="Slide From Left" length="1.0" wait="true"]
 Soren: [i] It's her.  Cassandra. [/i]
 Soren: [i] To stop her creations...[/i]
 Soren: [i] I have to stop her!! [/i]
@@ -18,6 +18,6 @@ Cassandra: “You don’t, so I’ll fill you in.  Think of every person you kno
 Cassandra: “‘Oh, Cass, that’s useless, just use magic!’ Every. Single. Day.”
 Cassandra: “I’m proving them wrong.”
 Cassandra: “And I won’t let YOU get in my way!”
-leave Soren [animation="Slide To Left"]
-leave Cassandra [animation="Slide To Right"]
+leave Soren [animation="Slide To Right"]
+leave Cassandra [animation="Slide To Left"]
 [end_timeline]
