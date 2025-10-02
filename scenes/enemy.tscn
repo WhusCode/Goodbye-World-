@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cmrbw75a6ljdt" path="res://art/TutorialArt/slime.png" id="1_fnqhf"]
 [ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://Scripts/enemy.gd" id="1_md0e3"]
-[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://Scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
+[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5uy6h"]
 shader = ExtResource("2_4ra3w")
@@ -87,7 +87,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_c4w8v")
 }],
-"loop": true,
+"loop": false,
 "name": &"death",
 "speed": 5.0
 }, {
@@ -142,6 +142,7 @@ radius = 5.09902
 radius = 11.0
 
 [node name="enemy" type="CharacterBody2D"]
+y_sort_enabled = true
 platform_floor_layers = 4294967040
 script = ExtResource("1_md0e3")
 
@@ -149,7 +150,7 @@ script = ExtResource("1_md0e3")
 material = SubResource("ShaderMaterial_5uy6h")
 position = Vector2(0, -6)
 sprite_frames = SubResource("SpriteFrames_moy5k")
-animation = &"idle"
+animation = &"death"
 
 [node name="detection_area" type="Area2D" parent="."]
 collision_layer = 2

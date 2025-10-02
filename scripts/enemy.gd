@@ -7,8 +7,12 @@ var player = null
 var health = 100
 var player_inattack_zone = false
 var can_take_dmg = true
+var dead = false
 
 func _physics_process(delta):
+	if dead:
+		return
+		
 	deal_with_dmg()
 	
 	if player_chase:
@@ -65,10 +69,19 @@ func deal_with_dmg():
 			tween.set_trans(Tween.TRANS_ELASTIC)
 			tween.tween_property($AnimatedSprite2D, "material:shader_parameter/flash_value", 0.0, 0.2)
 			
-			if health <= 0:
-				self.queue_free()
-				#$AnimatedSprite2D.play("death")
+			if health <= 0 and not dead:
+				dead = true
+				$AnimatedSprite2D.play("death")
+				# Disable collision so player can't interact with dead enemy
+				$CollisionShape2D.disabled = true
 
 
 func _on_take_dmg_cd_timeout():
 	can_take_dmg = true
+
+func _on_animation_finished(anim_name):
+	if anim_name == "death":
+		queue_free()
+
+func _ready():
+	$AnimatedSprite2D.animation_finished.connect(_on_animation_finished)
