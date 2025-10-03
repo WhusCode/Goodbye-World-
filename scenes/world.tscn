@@ -138,14 +138,14 @@ texture = ExtResource("3_71j4m")
 0:1/0 = 0
 0:1/0/y_sort_origin = 16
 0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-14.3384, 18.7992, 14.3384, 18.7992, 22.3042, 30.9072, -24.8532, 30.2699)
-0:7/size_in_atlas = Vector2i(5, 4)
-0:7/0 = 0
-0:7/0/y_sort_origin = 16
-0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.77946, 21.3483, 9.55893, 21.6669, 18.1205, 31.229, -19.1921, 32.175)
 6:7/size_in_atlas = Vector2i(5, 4)
 6:7/0 = 0
 6:7/0/y_sort_origin = 16
 6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.55423, 18.5061, 11.1808, 15.8073, 19.2772, 26.6025, -10.4097, 29.6868)
+0:7/size_in_atlas = Vector2i(5, 4)
+0:7/0 = 0
+0:7/0/y_sort_origin = 19
+0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.77946, 21.3483, 9.55893, 21.6669, 18.1205, 31.229, -19.1921, 32.175)
 
 [sub_resource type="TileSet" id="TileSet_7r4gi"]
 physics_layer_0/collision_layer = 1
@@ -160,6 +160,7 @@ y_sort_enabled = true
 script = ExtResource("1_qfnet")
 
 [node name="TileMap(autotiling)" type="TileMap" parent="."]
+y_sort_enabled = true
 tile_set = SubResource("TileSet_7r4gi")
 format = 2
 layer_0/name = "ground"
