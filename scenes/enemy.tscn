@@ -1,8 +1,10 @@
-[gd_scene load_steps=24 format=3 uid="uid://cxtnbh1160sas"]
+[gd_scene load_steps=21 format=3 uid="uid://cxtnbh1160sas"]
 
 [ext_resource type="Texture2D" uid="uid://cmrbw75a6ljdt" path="res://art/TutorialArt/slime.png" id="1_fnqhf"]
 [ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://Scripts/enemy.gd" id="1_md0e3"]
 [ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://Scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
+[ext_resource type="Texture2D" uid="uid://c7yvdbb40dmuv" path="res://art/Sprites/wolfStatic.png" id="4_0830c"]
+[ext_resource type="Texture2D" uid="uid://br00byvf137sa" path="res://art/Sprites/wolfRun.png" id="5_ghaa6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5uy6h"]
 shader = ExtResource("2_4ra3w")
@@ -29,45 +31,25 @@ region = Rect2(96, 384, 32, 32)
 atlas = ExtResource("1_fnqhf")
 region = Rect2(128, 384, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_aybbn"]
-atlas = ExtResource("1_fnqhf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_1dp5w"]
+atlas = ExtResource("4_0830c")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_auwsv"]
+atlas = ExtResource("5_ghaa6")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_po0sg"]
+atlas = ExtResource("5_ghaa6")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8uf12"]
+atlas = ExtResource("5_ghaa6")
 region = Rect2(0, 32, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_mtdrc"]
-atlas = ExtResource("1_fnqhf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_haro7"]
+atlas = ExtResource("5_ghaa6")
 region = Rect2(32, 32, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0g85q"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(64, 32, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_o7xf6"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(96, 32, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xwavj"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(0, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_nenq2"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(32, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_md484"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(64, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ipns3"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(96, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8qclf"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(128, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_w8i8w"]
-atlas = ExtResource("1_fnqhf")
-region = Rect2(160, 128, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_moy5k"]
 animations = [{
@@ -93,16 +75,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_aybbn")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mtdrc")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0g85q")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_o7xf6")
+"texture": SubResource("AtlasTexture_1dp5w")
 }],
 "loop": true,
 "name": &"idle",
@@ -110,22 +83,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xwavj")
+"texture": SubResource("AtlasTexture_auwsv")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_nenq2")
+"texture": SubResource("AtlasTexture_po0sg")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_md484")
+"texture": SubResource("AtlasTexture_8uf12")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ipns3")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_8qclf")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_w8i8w")
+"texture": SubResource("AtlasTexture_haro7")
 }],
 "loop": true,
 "name": &"walk",
@@ -150,7 +117,8 @@ script = ExtResource("1_md0e3")
 material = SubResource("ShaderMaterial_5uy6h")
 position = Vector2(0, -6)
 sprite_frames = SubResource("SpriteFrames_moy5k")
-animation = &"death"
+animation = &"walk"
+frame_progress = 0.642696
 
 [node name="detection_area" type="Area2D" parent="."]
 collision_layer = 2
