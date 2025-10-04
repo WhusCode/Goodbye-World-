@@ -6,9 +6,13 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qtsur"]
 bg_color = Color(0.266321, 0.695507, 0.459077, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cqkrj"]
 bg_color = Color(0.147086, 0.137575, 0.141778, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
 expand_margin_left = 1.0
 expand_margin_top = 1.0
 expand_margin_right = 1.0
@@ -18,6 +22,8 @@ shadow_offset = Vector2(0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hq1e1"]
 bg_color = Color(0.995781, 0.859542, 0.838872, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
 
 [node name="Healthbar" type="ProgressBar"]
 z_index = 1

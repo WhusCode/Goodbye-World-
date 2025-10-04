@@ -7,11 +7,16 @@ var player_alive = true
 var attack_ip = false
 const speed = 100
 var current_dir = "none"
+@onready var healthbar = $CanvasLayer/Healthbar
 
 func _ready() -> void:
+	healthbar.init_health(health)
 	$AnimatedSprite2D.play("frontIdle")
 	
 func _physics_process(delta):
+	if not player_alive:
+		return
+
 	player_movement(delta)
 	enemy_attack()
 	attack()
@@ -105,6 +110,8 @@ func enemy_attack():
 		print(health)
 		if health == 0:
 			die()
+		if is_instance_valid(healthbar):
+			healthbar.health = health
 
 
 func _on_attack_cd_timeout():
@@ -145,6 +152,8 @@ func _on_deal_attack_timer_timeout():
 	attack_ip = false
 	
 func die():
+	if is_instance_valid($attack_cd):
+		$attack_cd.stop()
+	if is_instance_valid($deal_attack_timer):
+		$deal_attack_timer.stop()
 	queue_free()
-	
-	
