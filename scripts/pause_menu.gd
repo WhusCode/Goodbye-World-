@@ -2,7 +2,7 @@ extends Control
 
 
 
-@onready var main = $world.tscn
+@onready var main = $"../../.."
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
