@@ -7,7 +7,12 @@ var player_alive = true
 var attack_ip = false
 const speed = 100
 var current_dir = "none"
+const max_health = 200
+@onready var regen = $regen
+@export var regen_rate = 5
 @onready var healthbar = $CanvasLayer/Healthbar
+@onready var regen_delay = $regen_delay
+
 
 func _ready() -> void:
 	healthbar.init_health(health)
@@ -103,15 +108,22 @@ func _on_player_hitbox_body_exited(body):
 		enemy_inattack_range = false
 		
 func enemy_attack():
-	if enemy_inattack_range and enemy_attack_cd == true:
+	if enemy_inattack_range and enemy_attack_cd == true: 
 		health = health - 20
 		enemy_attack_cd = false
 		$attack_cd.start()
 		print(health)
 		if health == 0:
 			die()
+			
 		if is_instance_valid(healthbar):
 			healthbar.health = health
+			
+		if is_instance_valid($regen):
+			$regen.stop()
+			
+		if is_instance_valid($regen_delay):
+			$regen_delay.start()
 
 
 func _on_attack_cd_timeout():
@@ -157,3 +169,21 @@ func die():
 	if is_instance_valid($deal_attack_timer):
 		$deal_attack_timer.stop()
 	queue_free()
+
+
+func _on_regen_timeout():
+	if not player_alive:
+		return
+
+	if health < max_health:
+		health += regen_rate
+		if health > max_health:
+			health = max_health
+
+		if is_instance_valid(healthbar):
+			healthbar.health = health
+
+
+func _on_regen_delay_timeout() -> void:
+	if is_instance_valid($regen):
+		$regen.start()
