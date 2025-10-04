@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c731iry7yiph0"]
 
-[ext_resource type="Script" uid="uid://cg3t38xgxeg32" path="res://Scripts/version_notes.gd" id="1_7i78g"]
+[ext_resource type="Script" uid="uid://cg3t38xgxeg32" path="res://scripts/version_notes.gd" id="1_7i78g"]
 
 [node name="VersionNotes" type="Control"]
 layout_mode = 3

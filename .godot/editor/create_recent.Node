@@ -1,11 +1,14 @@
+ColorRect
+Camera2D
+Button
+VBoxContainer
+MarginContainer
 AudioStreamPlayer2D
 TileMap
 Label
 RichTextLabel
 HSlider
-Button
 Label      - Matches the "text" keyword.
 AudioStreamPlayer
 Node
-Camera2D
 TextureRect
