@@ -1,10 +1,11 @@
-[gd_scene load_steps=21 format=3 uid="uid://cxtnbh1160sas"]
+[gd_scene load_steps=22 format=3 uid="uid://cxtnbh1160sas"]
 
 [ext_resource type="Texture2D" uid="uid://cmrbw75a6ljdt" path="res://art/TutorialArt/slime.png" id="1_fnqhf"]
 [ext_resource type="Script" uid="uid://dcdtape5tqllw" path="res://Scripts/enemy.gd" id="1_md0e3"]
-[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://Scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
-[ext_resource type="Texture2D" uid="uid://bwm248yqs2el1" path="res://art/Sprites/wolfStatic.png" id="4_0830c"]
-[ext_resource type="Texture2D" uid="uid://bnx13x3spxirf" path="res://art/Sprites/wolfRun.png" id="5_ghaa6"]
+[ext_resource type="Shader" uid="uid://kptoqwunisyy" path="res://scenes/enemy_hit_flash.gdshader" id="2_4ra3w"]
+[ext_resource type="Texture2D" uid="uid://dbxyphvwu8qgb" path="res://art/Sprites/wolfStatic.png" id="4_0830c"]
+[ext_resource type="Texture2D" uid="uid://dhrevr8a0hlx" path="res://art/Sprites/wolfRun.png" id="5_ghaa6"]
+[ext_resource type="PackedScene" uid="uid://dilvjtmvi08np" path="res://Scenes/healthbar.tscn" id="6_ghaa6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5uy6h"]
 shader = ExtResource("2_4ra3w")
@@ -143,6 +144,12 @@ shape = SubResource("CircleShape2D_4ra3w")
 
 [node name="take_dmg_cd" type="Timer" parent="."]
 wait_time = 0.5
+
+[node name="Healthbar" parent="." instance=ExtResource("6_ghaa6")]
+offset_left = -14.0
+offset_top = -22.0
+offset_right = 15.0
+offset_bottom = -19.0
 
 [connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]

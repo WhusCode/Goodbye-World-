@@ -8,6 +8,8 @@ var health = 100
 var player_inattack_zone = false
 var can_take_dmg = true
 var dead = false
+@onready var healthbar = $Healthbar
+
 
 func _physics_process(delta):
 	if dead:
@@ -74,6 +76,8 @@ func deal_with_dmg():
 				$AnimatedSprite2D.play("death")
 				# Disable collision so player can't interact with dead enemy
 				$CollisionShape2D.disabled = true
+	if is_instance_valid(healthbar):
+		healthbar.health = health
 
 
 func _on_take_dmg_cd_timeout():
@@ -84,4 +88,5 @@ func _on_animation_finished(anim_name):
 		queue_free()
 
 func _ready():
+	healthbar.init_health(health)
 	$AnimatedSprite2D.animation_finished.connect(_on_animation_finished)
