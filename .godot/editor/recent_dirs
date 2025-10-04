@@ -1,4 +1,5 @@
 res://scripts
+res://scenes
 res://
 res://art/Portraits
 res://addons/dialogic/Example Assets/sound-effects
@@ -9,6 +10,5 @@ res://Dialogue/Boxes
 res://art/Environment
 res://art/Sprites
 res://MusicFiles
-res://scenes
 res://art/UI
 res://art/Background

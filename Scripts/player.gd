@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+@onready var healthbar = $"HealthBars!!!!"
+
 var enemy_inattack_range = false
 var enemy_attack_cd = true
 var health = 200
@@ -9,6 +11,7 @@ const speed = 100
 var current_dir = "none"
 
 func _ready() -> void:
+	healthbar.init_health(health)	 
 	$AnimatedSprite2D.play("frontIdle")
 	
 func _physics_process(delta):
@@ -102,9 +105,9 @@ func enemy_attack():
 		health = health - 20
 		enemy_attack_cd = false
 		$attack_cd.start()
-		print(health)
 		if health == 0:
 			die()
+		healthbar.health = health
 
 
 func _on_attack_cd_timeout():
@@ -146,5 +149,9 @@ func _on_deal_attack_timer_timeout():
 	
 func die():
 	queue_free()
-	
-	
+	get_tree().quit()
+
+func _on_health_regen_timeout() -> void:
+	if health <= 200:
+		health += 1
+		healthbar._set_health(health)
