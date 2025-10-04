@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 res://Scripts
+=======
+res://scripts
+res://scenes
+res://
+>>>>>>> aef65cd312fe8712e16f318f84472954ebbf500c
 res://art/Portraits
 res://addons/dialogic/Example Assets/sound-effects
 res://art/TutorialArt
@@ -8,8 +14,5 @@ res://Dialogue/Boxes
 res://art/Environment
 res://art/Sprites
 res://MusicFiles
-res://scripts
-res://
-res://scenes
 res://art/UI
 res://art/Background

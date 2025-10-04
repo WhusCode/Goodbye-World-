@@ -1,13 +1,18 @@
 CanvasLayer
 Timer
+<<<<<<< HEAD
+=======
+ProgressBar
+ColorRect
+Camera2D
+Button
+VBoxContainer
+MarginContainer
+>>>>>>> aef65cd312fe8712e16f318f84472954ebbf500c
 AudioStreamPlayer2D
 TileMap
 Label
 RichTextLabel
 HSlider
-Button
 Label      - Matches the "text" keyword.
 AudioStreamPlayer
-Node
-Camera2D
-TextureRect
