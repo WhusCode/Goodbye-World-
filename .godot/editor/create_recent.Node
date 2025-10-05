@@ -1,3 +1,4 @@
+Label      - Matches the "text" keyword.
 TextureButton
 CanvasLayer
 Timer
@@ -12,4 +13,3 @@ TileMap
 Label
 RichTextLabel
 HSlider
-Label      - Matches the "text" keyword.
