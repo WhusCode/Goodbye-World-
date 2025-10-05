@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://xien25b8j6p6"]
+[gd_scene load_steps=9 format=3 uid="uid://xien25b8j6p6"]
 
 [ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://Scripts/control.gd" id="1_klylv"]
 [ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://art/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
 [ext_resource type="Texture2D" uid="uid://bmmkm8u4gl604" path="res://art/UI/unselectedVerNotesButton.PNG" id="3_55kwv"]
+[ext_resource type="Theme" uid="uid://ccpa84i4yixfv" path="res://ButtonThemes/VerNotesButtonTheme.tres" id="3_n82rj"]
+[ext_resource type="Theme" uid="uid://be74t4snk8aia" path="res://ButtonThemes/quitButtonTheme.tres" id="4_6vd4x"]
 [ext_resource type="Texture2D" uid="uid://ca2jo5r7a0yrw" path="res://art/UI/unselectedQuitButton.PNG" id="4_12m1t"]
 [ext_resource type="Texture2D" uid="uid://bldu1mrbxxq6e" path="res://art/UI/unselectedCreditsButton.PNG" id="5_6vd4x"]
+[ext_resource type="Theme" uid="uid://bn1ydyr8gkb4l" path="res://ButtonThemes/creditButtonTheme.tres" id="7_0061g"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -36,6 +39,7 @@ offset_left = 1692.0
 offset_top = 977.0
 offset_right = 1916.0
 offset_bottom = 1083.0
+theme = ExtResource("3_n82rj")
 
 [node name="TextureRect" type="TextureRect" parent="VersionNotes"]
 layout_mode = 0
@@ -51,6 +55,7 @@ offset_left = -2.0
 offset_top = 853.0
 offset_right = 490.0
 offset_bottom = 1081.0
+theme = ExtResource("4_6vd4x")
 
 [node name="TextureRect" type="TextureRect" parent="Quit"]
 layout_mode = 0
@@ -66,6 +71,7 @@ offset_left = 1693.0
 offset_top = 868.0
 offset_right = 1917.0
 offset_bottom = 974.0
+theme = ExtResource("7_0061g")
 
 [node name="TextureRect" type="TextureRect" parent="Credits"]
 layout_mode = 0
