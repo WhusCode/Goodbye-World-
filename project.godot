@@ -36,7 +36,7 @@ directories/dtl_directory={
 "CassandraDefeated": "res://Dialogue/Timelines/CassandraDefeated.dtl",
 "LearnAboutCassandra": "res://Dialogue/Timelines/LearnAboutCassandra.dtl",
 "MeetSorenAndControls": "res://Dialogue/Timelines/MeetSorenAndControls.dtl",
-"OpeningNarrTL": "res://Dialogue/Characters/OpeningNarrTL.dtl",
+"OpeningNarrTL": "res://Dialogue/Timelines/OpeningNarrTL.dtl",
 "SorenFindUpgrade": "res://Dialogue/Timelines/SorenFindUpgrade.dtl",
 "timeline": "res://Dialogue/Timelines/timeline.dtl"
 }

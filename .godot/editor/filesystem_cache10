@@ -1,5 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1759627296
+::res://::1759699692
+player_input.gd::GDScript::5377593923268422688::1759699396::0::1::::<>Node<><>0<>0<><>::
 ::res://addons/::1758914431
 ::res://addons/dialogic/::1758914437
 plugin.cfg::TextFile::-1::1758914431::0::1::::<><><>0<>0<><>::
@@ -697,24 +698,24 @@ unselectedVerNotesButton.PNG::CompressedTexture2D/CompressedTexture2D::325408970
 WPISplash.png::CompressedTexture2D/CompressedTexture2D::5077936690752198584::1758150383::1758755450::1::::<><><>0<>0<>b5b4961957740aaef47621b67f8059dd<>res://.godot/imported/WPISplash.png-7f1bf8e1feebdbf49502a379558ae06e.ctex::
 ::res://art/UI/healthbar/::1759627384
 swordbar.png::CompressedTexture2D::7715704881306891066::1759627384::1759627384::1::::<><><>0<>0<>76b17fe9a16ab237431f82ee9d17126b<>res://.godot/imported/swordbar.png-d21dd91b996f8b9be8e096fce68a7c75.ctex::
-::res://ButtonThemes/::1759627296
-creditButtonTheme.tres::Theme::3354013326131046777::1759627296::0::1::::<><><>0<>0<><>::uid://b80u6m5a4mtjy::::res://art/UI/selectedCreditsButton.PNG
-quitButtonTheme.tres::Theme::2735032420838518744::1759627296::0::1::::<><><>0<>0<><>::uid://bqfu2ya2na00r::::res://art/UI/selectedQuitButton.PNG
-VerNotesButtonTheme.tres::Theme::4944245189057655163::1759627296::0::1::::<><><>0<>0<><>::uid://baqf4oghjmmbp::::res://art/UI/selectedVerNotesButton.PNG
+::res://ButtonThemes/::1759699586
+creditButtonTheme.tres::Theme::3354013326131046777::1759699586::0::1::::<><><>0<>0<><>::uid://b80u6m5a4mtjy::::res://art/UI/selectedCreditsButton.PNG
+quitButtonTheme.tres::Theme::2735032420838518744::1759699586::0::1::::<><><>0<>0<><>::uid://bqfu2ya2na00r::::res://art/UI/selectedQuitButton.PNG
+VerNotesButtonTheme.tres::Theme::4944245189057655163::1759699586::0::1::::<><><>0<>0<><>::uid://baqf4oghjmmbp::::res://art/UI/selectedVerNotesButton.PNG
 ::res://Dialogue/::1759502475
-::res://Dialogue/Boxes/::1759627296
+::res://Dialogue/Boxes/::1759699586
 narratorText.tres::Resource/DialogicStyle::7990353880040450906::1759502405::0::1::::<><><>0<>0<><>::uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
-newbox.tres::Resource/DialogicStyle::8734621601706047432::1759627296::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
-::res://Dialogue/Characters/::1759623697
+newbox.tres::Resource/DialogicStyle::8734621601706047432::1759699586::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
+::res://Dialogue/Characters/::1759699128
 Cassandra.dch::Resource/DialogicCharacter::5312901628515914507::1759502604::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://art/Portraits/CassandraFullBody.PNG<>res://art/TutorialArt/icon.svg
 Narrator.dch::Resource/DialogicCharacter::4991417710020879383::1759502597::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::
-OpeningNarrTL.dtl::Resource/DialogicTimeline::7395313728167015155::1759623697::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://cdd46kaseleff
 Soren.dch::Resource/DialogicCharacter::6800968276778232875::1759608769::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://art/Portraits/SorenFullBody.PNG<>res://art/Sprites/SorenRun.png
-::res://Dialogue/Timelines/::1759623696
+::res://Dialogue/Timelines/::1759699178
 CassandraBossFight.dtl::Resource/DialogicTimeline::6435959806769044521::1759608769::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf<>uid://chxuyi6hm6uoh
 CassandraDefeated.dtl::Resource/DialogicTimeline::8392017409507893265::1759502405::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://chxuyi6hm6uoh<>uid://c35o7oxqm6qhf<>uid://cdd46kaseleff
 LearnAboutCassandra.dtl::Resource/DialogicTimeline::3728136640647340996::1759502405::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf<>uid://cdd46kaseleff
 MeetSorenAndControls.dtl::Resource/DialogicTimeline::2575656164402599818::1759502405::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf<>uid://cdd46kaseleff
+OpeningNarrTL.dtl::Resource/DialogicTimeline::7395313728167015155::1759699178::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://cdd46kaseleff
 SorenFindUpgrade.dtl::Resource/DialogicTimeline::4819435812213511243::1759502405::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf<>uid://cdd46kaseleff
 timeline.dtl::Resource/DialogicTimeline::5458353777386326506::1758914938::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://c35o7oxqm6qhf
 ::res://MusicFiles/::1759187746
@@ -723,28 +724,29 @@ Does This Sound Minecraft Enough.mp3::AudioStreamMP3/AudioStreamMP3::43858244920
 Dragon Smasher.mp3::AudioStreamMP3/AudioStreamMP3::94008005783155804::1758617713::1758617713::1::::<><><>0<>0<>8759bb4ed84b8b1000c625909d9004d1<>res://.godot/imported/Dragon Smasher.mp3-a3f6eb03337872171f24ae7cc916d8f1.mp3str::
 Head Empty.mp3::AudioStreamMP3/AudioStreamMP3::2272298389784786945::1758757246::1758757250::1::::<><><>0<>0<>1bf15271751abfce119f2e0f723c43b0<>res://.godot/imported/Head Empty.mp3-59a0928156f4897275c58fcf12ad5f93.mp3str::
 sword_slash.mp3::AudioStreamMP3/AudioStreamMP3::1818992109093727229::1759029653::1759187746::1::::<><><>0<>0<>58a3f1dd0cf36dc97f3383eeb061ca7f<>res://.godot/imported/sword_slash.mp3-01b5041373796f5327da96f992956196.mp3str::
-::res://scenes/::1759627296
+::res://scenes/::1759699586
 audio_controller.tscn::PackedScene::7399593995549728171::1759611559::0::1::::<><><>0<>0<><>::uid://b30qyrdy6yynd::::res://scripts/audio_controller.gd<>uid://blskevlfv1oa::::res://MusicFiles/Dragon Smasher.mp3
 credits.tscn::PackedScene::426061793125689957::1759623697::0::1::::<><><>0<>0<><>::uid://clbqclo8ib8mn::::res://Scripts/credits.gd
 enemy.tscn::PackedScene::6427199464140068306::1759623697::0::1::::<><><>0<>0<><>::uid://cmrbw75a6ljdt::::res://art/TutorialArt/slime.png<>uid://dcdtape5tqllw::::res://Scripts/enemy.gd<>uid://kptoqwunisyy::::res://scenes/enemy_hit_flash.gdshader<>uid://x3v5tmi4ymc6::::res://art/Sprites/wolfStatic.png<>uid://6ltpjpctnu1w::::res://art/Sprites/wolfRun.png<>uid://dilvjtmvi08np::::res://Scenes/healthbar.tscn
 enemy_hit_flash.gdshader::Shader::734033601954168224::1759623697::0::1::::<><><>0<>0<><>::
 healthbar.tscn::PackedScene::7744773101918621109::1759623697::0::1::::<><><>0<>0<><>::uid://cytse58afm6t8::::res://Scripts/healthbar.gd
-OpeningNarration.tscn::PackedScene::5425855698174206029::1759623697::0::1::::<><><>0<>0<><>::uid://carx5k7yrrkqi::::res://Scripts/opening_narration.gd
-player.tscn::PackedScene::1939878156375805415::1759623697::0::1::::<><><>0<>0<><>::uid://podkvv2cp5mj::::res://Scripts/player.gd<>uid://b10fp67hvyk5t::::res://art/Sprites/SorenBackAttack.png<>uid://drg2wus5coui2::::res://art/Sprites/SorenFrontAttack.png<>uid://ctln0ujp3p8fe::::res://art/Sprites/SorenBackIdle.png<>uid://dmr43dix3noos::::res://art/Sprites/SorenIdle.png<>uid://cfgwxhk0tyin::::res://art/Sprites/SorenRun.png<>uid://bk1tuu1c65rt3::::res://art/Sprites/SorenBackRun.png<>uid://b71ld7kami33q::::res://art/Sprites/SorenSideAttack.png<>uid://fwdx828gxejf::::res://art/Sprites/SorenSideIdle.png<>uid://b0un4geeys0xn::::res://art/Sprites/SorenRunSideView.png<>uid://06esfvj4kbld::::res://MusicFiles/sword_slash.mp3<>uid://dilvjtmvi08np::::res://Scenes/healthbar.tscn
+pause_menu.tscn::PackedScene::1973575365493019995::1759628346::0::1::::<><><>0<>0<><>::uid://ddongrrg313e2::::res://scripts/pause_menu.gd
+player.tscn::PackedScene::1939878156375805415::1759627578::0::1::::<><><>0<>0<><>::uid://podkvv2cp5mj::::res://scripts/player.gd<>uid://b10fp67hvyk5t::::res://art/Sprites/SorenBackAttack.png<>uid://drg2wus5coui2::::res://art/Sprites/SorenFrontAttack.png<>uid://ctln0ujp3p8fe::::res://art/Sprites/SorenBackIdle.png<>uid://dmr43dix3noos::::res://art/Sprites/SorenIdle.png<>uid://cfgwxhk0tyin::::res://art/Sprites/SorenRun.png<>uid://bk1tuu1c65rt3::::res://art/Sprites/SorenBackRun.png<>uid://b71ld7kami33q::::res://art/Sprites/SorenSideAttack.png<>uid://fwdx828gxejf::::res://art/Sprites/SorenSideIdle.png<>uid://b0un4geeys0xn::::res://art/Sprites/SorenRunSideView.png<>uid://06esfvj4kbld::::res://MusicFiles/sword_slash.mp3<>uid://dilvjtmvi08np::::res://scenes/healthbar.tscn<>uid://dh6ssdekqkxj3::::res://art/UI/healthbar/swordbar.png
 settings.tscn::PackedScene::5700526166480412859::1759623697::0::1::::<><><>0<>0<><>::uid://bym3a1vi4j2dm::::res://Scripts/settings.gd
-title_screen.tscn::PackedScene::1631125973563563537::1759627296::0::1::::<><><>0<>0<><>::uid://b8cj2c5oj8rnx::::res://scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://art/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://bmmkm8u4gl604::::res://art/UI/unselectedVerNotesButton.PNG<>uid://ccpa84i4yixfv::::res://ButtonThemes/VerNotesButtonTheme.tres<>uid://be74t4snk8aia::::res://ButtonThemes/quitButtonTheme.tres<>uid://ca2jo5r7a0yrw::::res://art/UI/unselectedQuitButton.PNG<>uid://bldu1mrbxxq6e::::res://art/UI/unselectedCreditsButton.PNG<>uid://bn1ydyr8gkb4l::::res://ButtonThemes/creditButtonTheme.tres
+title_screen.tscn::PackedScene::1631125973563563537::1759628546::0::1::::<><><>0<>0<><>::uid://b8cj2c5oj8rnx::::res://scripts/control.gd<>uid://cj0w5i3q8r5s7::::res://art/Background/titleScreenReference-GoodbyeWorld.PNG<>uid://bmmkm8u4gl604::::res://art/UI/unselectedVerNotesButton.PNG<>uid://ccpa84i4yixfv::::res://ButtonThemes/VerNotesButtonTheme.tres<>uid://be74t4snk8aia::::res://ButtonThemes/quitButtonTheme.tres<>uid://ca2jo5r7a0yrw::::res://art/UI/unselectedQuitButton.PNG<>uid://bldu1mrbxxq6e::::res://art/UI/unselectedCreditsButton.PNG<>uid://bn1ydyr8gkb4l::::res://ButtonThemes/creditButtonTheme.tres
 version_notes.tscn::PackedScene::7078280800538675459::1759623697::0::1::::<><><>0<>0<><>::uid://cg3t38xgxeg32::::res://Scripts/version_notes.gd
-world.tscn::PackedScene::8731724331218117591::1759623697::0::1::::<><><>0<>0<><>::uid://btc57mfqgpcjy::::res://Scripts/world.gd<>uid://rr8x2iwno8ot::::res://art/Environment/GoodbyeWorld ground.png<>uid://b4c452jdgenq6::::res://art/Environment/envTiles.png<>uid://2vxrll2fnmvv::::res://Scenes/player.tscn<>uid://cxtnbh1160sas::::res://Scenes/enemy.tscn
-::res://scripts/::1759623697
+world.tscn::PackedScene::8731724331218117591::1759699586::0::1::::<><><>0<>0<><>::uid://btc57mfqgpcjy::::res://scripts/world.gd<>uid://rr8x2iwno8ot::::res://art/Environment/GoodbyeWorld ground.png<>uid://b4c452jdgenq6::::res://art/Environment/envTiles.png<>uid://2vxrll2fnmvv::::res://scenes/player.tscn<>uid://cxtnbh1160sas::::res://scenes/enemy.tscn<>uid://3eaq6urm023p::::res://scenes/pause_menu.tscn
+::res://scripts/::1759699692
 audio_controller.gd::GDScript::4404332979011696909::1759611661::0::1::::<>Node<><>0<>0<><>::
-control.gd::GDScript::4707376100666892525::1759611661::0::1::::<>Control<><>0<>0<><>::
+control.gd::GDScript::4707376100666892525::1759699331::0::1::::<>Control<><>0<>0<><>::
 credits.gd::GDScript::5547958669524942289::1759611661::0::1::::<>Control<><>0<>0<><>::
 enemy.gd::GDScript::7306987289898674984::1759623697::0::1::::<>CharacterBody2D<><>0<>0<><>::
 global.gd::GDScript::9147265535795929038::1758149969::0::1::::<>Node<><>0<>0<><>::
 healthbar.gd::GDScript::6497698467757770899::1759623697::0::1::::<>ProgressBar<><>0<>0<><>::
-opening_narration.gd::GDScript::4809386429637084776::1759611662::0::1::::<>Node2D<><>0<>0<><>::
-player.gd::GDScript::1081935088705970513::1759623697::0::1::::<>CharacterBody2D<><>0<>0<><>::
+opening_narration.gd::GDScript::4809386429637084776::1759699259::0::1::::<>Node2D<><>0<>0<><>::
+pause_menu.gd::GDScript::7399530825689342499::1759628374::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::1081935088705970513::1759699586::0::1::::<>CharacterBody2D<><>0<>0<><>::
 settings.gd::GDScript::4097426938302675254::1758757471::0::1::::<>Control<><>0<>0<><>::
 version_notes.gd::GDScript::5252982400524539771::1758150267::0::1::::<>Control<><>0<>0<><>::
 volumecount.gd::GDScript::4237393286829450576::1759502405::0::1::::<>Label<><>0<>0<><>::
-world.gd::GDScript::3726016762251587306::1759623697::0::1::::<>Node2D<><>0<>0<><>::
+world.gd::GDScript::3726016762251587306::1759699692::0::1::::<>Node2D<><>0<>0<><>::

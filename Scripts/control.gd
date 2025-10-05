@@ -9,7 +9,7 @@ func _ready() -> void:
 		AudioController.play_track_by_file("res://MusicFiles/Does This Sound Minecraft Enough.mp3")
 
 func _on_start_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/OpeningNarration.tscn")
+	get_tree().change_scene_to_file("res://scenes/world.tscn")
 	AudioController.play_track_by_file("res://MusicFiles/A Thousand Archives, Forever Lost to Time.mp3")
 
 
