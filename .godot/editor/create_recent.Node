@@ -1,15 +1,14 @@
+CanvasLayer
+Button
+VBoxContainer
+HBoxContainer
+MarginContainer
 Label      - Matches the "text" keyword.
 TextureButton
-CanvasLayer
 Timer
 ProgressBar
 ColorRect
 Camera2D
-Button
-VBoxContainer
-MarginContainer
 AudioStreamPlayer2D
 TileMap
 Label
-RichTextLabel
-HSlider
