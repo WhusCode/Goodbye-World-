@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://xien25b8j6p6"]
 
-[ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://scripts/control.gd" id="1_klylv"]
+[ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://Scripts/control.gd" id="1_klylv"]
 [ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://art/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
 [ext_resource type="Texture2D" uid="uid://bpclcg01mhum" path="res://art/UI/unselectedPlayButton.PNG" id="2_sqelc"]
 [ext_resource type="Theme" uid="uid://bf1tlknoq13y4" path="res://Themes/playButtonTheme.tres" id="2_w5sh6"]
