@@ -21,7 +21,8 @@ func _ready() -> void:
 func _physics_process(delta):
 	if not player_alive:
 		return
-
+	if Global.PlayerInput == false:
+		return	
 	player_movement(delta)
 	enemy_attack()
 	attack()
@@ -33,6 +34,7 @@ func _physics_process(delta):
 		self.queue_free()
 
 func player_movement(delta):
+	
 	velocity = Vector2.ZERO
 
 	if Input.is_action_pressed("right"):
