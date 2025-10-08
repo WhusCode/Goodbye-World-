@@ -12,6 +12,7 @@ const max_health = 200
 @export var regen_rate = 5
 @onready var healthbar = $CanvasLayer/Healthbar
 @onready var regen_delay = $regen_delay
+var game_over_reference = preload("res://Scenes/Game_Over.tscn")
 
 
 func _ready() -> void:
@@ -170,6 +171,8 @@ func die():
 		$attack_cd.stop()
 	if is_instance_valid($deal_attack_timer):
 		$deal_attack_timer.stop()
+	var game_over_screen = game_over_reference.instantiate()
+	get_tree().current_scene.add_child(game_over_screen)
 	queue_free()
 
 
