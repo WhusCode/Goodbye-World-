@@ -1,6 +1,4 @@
-[gd_resource type="Theme" load_steps=16 format=4 uid="uid://c0kudv0us0qnx"]
-
-[ext_resource type="Texture2D" uid="uid://c460xrkdmb2y4" path="res://art/UI/selectedSettingsButton.PNG" id="1_4p0dw"]
+[gd_resource type="Theme" load_steps=15 format=4 uid="uid://dfh40q77ww3wl"]
 
 [sub_resource type="Image" id="Image_61k7y"]
 data = {
@@ -1535,32 +1533,11 @@ expand_margin_top = 2.0
 expand_margin_right = 2.0
 expand_margin_bottom = 2.0
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5oak3"]
-texture = ExtResource("1_4p0dw")
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lqrp8"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jbvks"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0.1, 0.1, 0.1, 0.6)
-corner_radius_top_left = 3
-corner_radius_top_right = 3
-corner_radius_bottom_right = 3
-corner_radius_bottom_left = 3
-corner_detail = 5
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8vrxr"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q764b"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0, 0, 0, 0.6)
-corner_radius_top_left = 3
-corner_radius_top_right = 3
-corner_radius_bottom_right = 3
-corner_radius_bottom_left = 3
-corner_detail = 5
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_et3m0"]
 
 [resource]
 Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
@@ -1584,6 +1561,6 @@ Button/font_sizes/font_size = 16
 Button/fonts/font = SubResource("FontFile_dn1an")
 Button/styles/disabled = SubResource("StyleBoxFlat_1dikf")
 Button/styles/focus = SubResource("StyleBoxFlat_vgsu2")
-Button/styles/hover = SubResource("StyleBoxTexture_5oak3")
-Button/styles/normal = SubResource("StyleBoxFlat_jbvks")
-Button/styles/pressed = SubResource("StyleBoxFlat_q764b")
+Button/styles/hover = SubResource("StyleBoxEmpty_lqrp8")
+Button/styles/normal = SubResource("StyleBoxEmpty_8vrxr")
+Button/styles/pressed = SubResource("StyleBoxEmpty_et3m0")
