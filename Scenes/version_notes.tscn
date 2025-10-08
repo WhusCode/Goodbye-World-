@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://c731iry7yiph0"]
+[gd_scene load_steps=4 format=3 uid="uid://c731iry7yiph0"]
 
 [ext_resource type="Script" uid="uid://cg3t38xgxeg32" path="res://Scripts/version_notes.gd" id="1_7i78g"]
+[ext_resource type="Texture2D" uid="uid://00kvheyom2xs" path="res://art/UI/unselectedMainMenuButton.PNG" id="2_0ylr1"]
+[ext_resource type="Theme" uid="uid://b8y6ow8l4lffm" path="res://Themes/mainMenuButtonTheme.tres" id="2_487cl"]
 
 [node name="VersionNotes" type="Control"]
 layout_mode = 3
@@ -26,6 +28,7 @@ offset_left = 1695.0
 offset_top = 970.0
 offset_right = 1919.0
 offset_bottom = 1076.0
+theme = ExtResource("2_487cl")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="MainMenu"]
 layout_mode = 0
@@ -35,9 +38,15 @@ offset_right = 222.0
 offset_bottom = 101.0
 mouse_filter = 2
 theme_override_font_sizes/normal_font_size = 40
-text = "Main Menu"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="MainMenu"]
+layout_mode = 0
+offset_right = 225.0
+offset_bottom = 108.0
+texture = ExtResource("2_0ylr1")
+expand_mode = 3
 
 [node name="VersionNotesText" type="RichTextLabel" parent="."]
 layout_mode = 0
