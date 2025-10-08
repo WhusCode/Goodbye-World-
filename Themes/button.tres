@@ -1533,7 +1533,7 @@ expand_margin_top = 2.0
 expand_margin_right = 2.0
 expand_margin_bottom = 2.0
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lqrp8"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lqrp8"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8vrxr"]
 
@@ -1561,6 +1561,6 @@ Button/font_sizes/font_size = 16
 Button/fonts/font = SubResource("FontFile_dn1an")
 Button/styles/disabled = SubResource("StyleBoxFlat_1dikf")
 Button/styles/focus = SubResource("StyleBoxFlat_vgsu2")
-Button/styles/hover = SubResource("StyleBoxEmpty_lqrp8")
+Button/styles/hover = SubResource("StyleBoxTexture_lqrp8")
 Button/styles/normal = SubResource("StyleBoxEmpty_8vrxr")
 Button/styles/pressed = SubResource("StyleBoxEmpty_et3m0")
