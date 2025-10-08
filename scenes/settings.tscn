@@ -1,8 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cnhm3lclynddb"]
+[gd_scene load_steps=2 format=3 uid="uid://cnhm3lclynddb"]
 
 [ext_resource type="Script" uid="uid://bym3a1vi4j2dm" path="res://Scripts/settings.gd" id="1_x2hje"]
-[ext_resource type="Theme" uid="uid://b8y6ow8l4lffm" path="res://Themes/mainMenuButtonTheme.tres" id="2_lhmql"]
-[ext_resource type="Texture2D" uid="uid://00kvheyom2xs" path="res://art/UI/unselectedMainMenuButton.PNG" id="3_aaqfp"]
 
 [node name="Settings" type="Control"]
 layout_mode = 3
@@ -29,15 +27,8 @@ layout_mode = 0
 offset_top = 778.0
 offset_right = 525.0
 offset_bottom = 1075.0
-theme = ExtResource("2_lhmql")
 theme_override_font_sizes/font_size = 80
-
-[node name="TextureRect" type="TextureRect" parent="Button"]
-layout_mode = 0
-offset_right = 524.0
-offset_bottom = 297.0
-texture = ExtResource("3_aaqfp")
-expand_mode = 3
+text = "Back to Main"
 
 [node name="MusicVolumeSilde" type="HSlider" parent="."]
 layout_mode = 0
