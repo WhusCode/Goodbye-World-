@@ -6,8 +6,7 @@ var paused = false
 func _ready() -> void:
 	Global.PlayerInput = false
 	Dialogic.signal_event.connect(_on_dialogic_signal)
-	var opening_narr = Dialogic.start('OpeningNarrTL')
-	add_child(opening_narr)
+	Dialogic.start('OpeningNarrTL')
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("pause"):

@@ -1,8 +1,9 @@
+TextureRect
 Button
+RichTextLabel
 Label
 ColorRect
 CanvasLayer
-TextureRect
 Timer
 ProgressBar
 Camera2D
@@ -10,5 +11,4 @@ VBoxContainer
 MarginContainer
 AudioStreamPlayer2D
 TileMap
-RichTextLabel
 HSlider

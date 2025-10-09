@@ -31,7 +31,6 @@ func _physics_process(delta):
 	if health <= 0:
 		player_alive = false #add game over or respawn
 		health = 0
-		print("YOU DIED")
 		self.queue_free()
 
 func player_movement(delta):
@@ -167,13 +166,8 @@ func _on_deal_attack_timer_timeout():
 	attack_ip = false
 	
 func die():
-	if is_instance_valid($attack_cd):
-		$attack_cd.stop()
-	if is_instance_valid($deal_attack_timer):
-		$deal_attack_timer.stop()
-	var game_over_screen = game_over_reference.instantiate()
-	get_tree().current_scene.add_child(game_over_screen)
 	queue_free()
+	get_tree().change_scene_to_file("res://Scenes/Game_Over.tscn")
 
 
 func _on_regen_timeout():

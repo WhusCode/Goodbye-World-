@@ -20,7 +20,7 @@ boot_splash/minimum_display_time=500
 
 [autoload]
 
-AudioController="*res://scenes/audio_controller.tscn"
+AudioController="*res://Scenes/audio_controller.tscn"
 Global="*res://scripts/global.gd"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
@@ -97,8 +97,8 @@ enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
 
 folder_colors={
 "res://MusicFiles/": "green",
+"res://Scenes/": "orange",
 "res://art/": "red",
-"res://scenes/": "orange",
 "res://scripts/": "yellow"
 }
 

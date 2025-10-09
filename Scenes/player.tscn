@@ -1,6 +1,6 @@
 [gd_scene load_steps=65 format=3 uid="uid://2vxrll2fnmvv"]
 
-[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://Scripts/player.gd" id="1_yg3w4"]
+[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://scripts/player.gd" id="1_yg3w4"]
 [ext_resource type="Texture2D" uid="uid://b10fp67hvyk5t" path="res://art/Sprites/SorenBackAttack.png" id="2_d2wvv"]
 [ext_resource type="Texture2D" uid="uid://drg2wus5coui2" path="res://art/Sprites/SorenFrontAttack.png" id="2_qhqgy"]
 [ext_resource type="Texture2D" uid="uid://ctln0ujp3p8fe" path="res://art/Sprites/SorenBackIdle.png" id="3_3v2ag"]

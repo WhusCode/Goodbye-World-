@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://cce8ec24m8r0t"]
+
+[ext_resource type="Texture2D" uid="uid://c66ah1remunt0" path="res://art/TutorialArt/icon.svg" id="1_bl13t"]
+[ext_resource type="Theme" uid="uid://b8y6ow8l4lffm" path="res://Themes/mainMenuButtonTheme.tres" id="2_iyx0m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_74lek"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j5jx5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lpvoh"]
+
+[node name="test" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 843.0
+offset_bottom = 422.0
+texture = ExtResource("1_bl13t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect"]
+layout_mode = 0
+offset_left = 296.0
+offset_top = 72.0
+offset_right = 538.0
+offset_bottom = 128.0
+theme_override_font_sizes/normal_font_size = 40
+text = "Game Over!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Return" type="Button" parent="."]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 168.0
+offset_right = 512.0
+offset_bottom = 280.0
+theme = ExtResource("2_iyx0m")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_74lek")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_j5jx5")
+theme_override_styles/hover = SubResource("StyleBoxTexture_lpvoh")
+
+[node name="TextureRect" type="TextureRect" parent="Return"]
+layout_mode = 0
+offset_left = -32.0
+offset_top = 88.0
+offset_right = 208.0
+offset_bottom = 176.0
