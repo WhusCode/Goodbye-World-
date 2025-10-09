@@ -4,7 +4,7 @@ var speed = 50
 var player_chase = false
 var player = null
 
-var health = 100
+var health = 300
 var player_inattack_zone = false
 var can_take_dmg = true
 var dead = false
