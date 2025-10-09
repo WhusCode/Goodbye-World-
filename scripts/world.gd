@@ -1,6 +1,7 @@
 extends Node2D
 
 @onready var pause_menu = $player/PauseMenu
+
 var paused = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -24,3 +25,7 @@ func pauseMenu():
 func _on_dialogic_signal(argument: String): #CURRENTLY NOT WORKING -- i dont know how to properly do signal code sorryyyy
 	if argument == "OpeningDone":
 		Global.PlayerInput = true	
+
+
+	
+	

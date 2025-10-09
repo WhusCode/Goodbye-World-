@@ -12,3 +12,4 @@ Narrator: [i] With the threat to the forest gone, magic may flourish once more.[
 Narrator: [i]You’ve done it.  You’ve saved this world.[/i]
 Narrator: [i] Thank you, and goodbye…[/i]
 leave Soren [animation="Fade Out Down"]
+[signal arg="BossDone"]

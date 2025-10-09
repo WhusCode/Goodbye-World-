@@ -20,4 +20,5 @@ Cassandra: “I’m proving them wrong.”
 Cassandra: “And I won’t let YOU get in my way!”
 leave Soren [animation="Slide To Right"]
 leave Cassandra [animation="Slide To Left"]
+[signal arg="BossTrigger"]
 [end_timeline]

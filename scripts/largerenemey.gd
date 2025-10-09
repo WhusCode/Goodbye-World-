@@ -1,0 +1,98 @@
+extends CharacterBody2D
+
+var speed = 50
+var player_chase = false
+var player = null
+
+var health = 100
+var player_inattack_zone = false
+var can_take_dmg = true
+var dead = false
+@onready var healthbar = $Healthbar
+
+
+func _physics_process(delta):
+	if dead:
+		return
+		
+	deal_with_dmg()
+	
+	if player_chase:
+		if position.distance_to(player.position) > 10:
+			position+=(player.position-position)/speed
+			$AnimatedSprite2D.play("walk")
+			if (player.position.x-position.x)<0:
+				$AnimatedSprite2D.flip_h=false
+			else:
+				$AnimatedSprite2D.flip_h=true
+	else:
+		$AnimatedSprite2D.play("idle")
+	move_and_slide()
+
+func _on_detection_area_body_entered(body):
+	player = body
+	player_chase = true
+
+
+func _on_detection_area_body_exited(body):
+	player = null
+	player_chase = false
+
+func enemy():
+	pass
+
+
+func _on_enemy_hitbox_body_entered(body):
+	if body.has_method("player"):
+		player_inattack_zone = true
+
+
+func _on_enemy_hitbox_body_exited(body):
+	if body.has_method("player"):
+		player_inattack_zone = false
+
+func deal_with_dmg():
+	if player_inattack_zone and Global.player_current_attack == true:
+		if can_take_dmg == true:
+			health = health - 20
+			$take_dmg_cd.start()
+			can_take_dmg = false
+			
+			# Play damage flash animation 
+			var tween : Tween = create_tween() 
+			tween.set_ease(Tween.EASE_OUT)
+			tween.set_trans(Tween.TRANS_ELASTIC)
+			tween.tween_property($AnimatedSprite2D, "material:shader_parameter/flash_value", 1.0, 0.2)
+			
+			await tween.finished
+			
+			tween = create_tween() 
+			tween.set_ease(Tween.EASE_OUT)
+			tween.set_trans(Tween.TRANS_ELASTIC)
+			tween.tween_property($AnimatedSprite2D, "material:shader_parameter/flash_value", 0.0, 0.2)
+			
+			if health <= 0 and not dead:
+				dead = true
+				$AnimatedSprite2D.play("death")
+				# Disable collision so player can't interact with dead enemy
+				$CollisionShape2D.disabled = true
+				
+				Global.PlayerInput = false
+				Dialogic.signal_event.connect(_on_dialogic_signal)
+				Dialogic.start("res://Dialogue/Timelines/CassandraDefeated.dtl")
+	if is_instance_valid(healthbar):
+		healthbar.health = health
+func _on_dialogic_signal(argument: String): #CURRENTLY NOT WORKING -- i dont know how to properly do signal code sorryyyy
+	if argument == "BossDone":
+		Global.PlayerInput = true	
+
+func _on_take_dmg_cd_timeout():
+	can_take_dmg = true
+
+func _on_animation_finished(anim_name):
+	if anim_name == "death":
+		queue_free()
+
+func _ready():
+	healthbar.init_health(health)
+	$AnimatedSprite2D.animation_finished.connect(_on_animation_finished)

@@ -406,7 +406,7 @@ height = 14.0
 radius = 8.0
 height = 22.0
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" groups=["Player", "PlayerGroup"]]
 y_sort_enabled = true
 collision_layer = 3
 platform_floor_layers = 4294967040
