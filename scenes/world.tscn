@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://dwnyhu7wlotbj"]
 
-[ext_resource type="Script" uid="uid://btc57mfqgpcjy" path="res://scripts/world.gd" id="1_qfnet"]
+[ext_resource type="Script" uid="uid://btc57mfqgpcjy" path="res://Scripts/world.gd" id="1_qfnet"]
 [ext_resource type="Texture2D" uid="uid://rr8x2iwno8ot" path="res://art/Environment/GoodbyeWorld ground.png" id="2_i7141"]
 [ext_resource type="Texture2D" uid="uid://b4c452jdgenq6" path="res://art/Environment/envTiles.png" id="3_71j4m"]
 [ext_resource type="PackedScene" uid="uid://2vxrll2fnmvv" path="res://Scenes/player.tscn" id="4_7x55j"]

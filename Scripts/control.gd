@@ -6,7 +6,7 @@ func _process(_delta):
 	
 func _ready() -> void:
 	if (AudioController.music_playing == false):
-		AudioController.play_track_by_file("res://MusicFiles/Does This Sound Minecraft Enough.mp3")
+		AudioController.play_track_by_file("res://MusicFiles/Main_Menu_Theme.mp3")
 
 func _on_start_pressed() -> void:
 	get_tree().change_scene_to_file("res://Scenes/world.tscn")

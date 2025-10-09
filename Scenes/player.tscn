@@ -1,6 +1,6 @@
 [gd_scene load_steps=65 format=3 uid="uid://2vxrll2fnmvv"]
 
-[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://scripts/player.gd" id="1_yg3w4"]
+[ext_resource type="Script" uid="uid://podkvv2cp5mj" path="res://Scripts/player.gd" id="1_yg3w4"]
 [ext_resource type="Texture2D" uid="uid://b10fp67hvyk5t" path="res://art/Sprites/SorenBackAttack.png" id="2_d2wvv"]
 [ext_resource type="Texture2D" uid="uid://drg2wus5coui2" path="res://art/Sprites/SorenFrontAttack.png" id="2_qhqgy"]
 [ext_resource type="Texture2D" uid="uid://ctln0ujp3p8fe" path="res://art/Sprites/SorenBackIdle.png" id="3_3v2ag"]
@@ -454,16 +454,16 @@ max_polyphony = 2
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 86.624954
-offset_top = -1000.625
-offset_right = 312.12506
+offset_left = 86.625
+offset_top = -1000.63
+offset_right = 312.125
 offset_bottom = -972.125
 grow_vertical = 0
 
 [node name="Swordbar" type="Sprite2D" parent="CanvasLayer"]
 z_index = 1
-position = Vector2(162.81248, 108.37499)
-scale = Vector2(3.3919268, 3.3554685)
+position = Vector2(162.812, 108.375)
+scale = Vector2(3.39193, 3.35547)
 texture = ExtResource("13_jej6c")
 
 [node name="regen" type="Timer" parent="."]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://xien25b8j6p6"]
 
-[ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://scripts/control.gd" id="1_klylv"]
+[ext_resource type="Script" uid="uid://b8cj2c5oj8rnx" path="res://Scripts/control.gd" id="1_klylv"]
 [ext_resource type="Texture2D" uid="uid://cj0w5i3q8r5s7" path="res://art/Background/titleScreenReference-GoodbyeWorld.PNG" id="2_55kwv"]
 [ext_resource type="Texture2D" uid="uid://bpclcg01mhum" path="res://art/UI/unselectedPlayButton.PNG" id="2_sqelc"]
 [ext_resource type="Theme" uid="uid://bf1tlknoq13y4" path="res://Themes/playButtonTheme.tres" id="2_w5sh6"]
@@ -14,13 +14,13 @@
 [ext_resource type="Theme" uid="uid://1we8mr1sxag6" path="res://Themes/quitButtonTheme.tres" id="8_o1e67"]
 [ext_resource type="Theme" uid="uid://c0kudv0us0qnx" path="res://Themes/settingsButtonTheme.tres" id="12_o1e67"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ycay6"]
-
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bsy20"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w5sh6"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ycay6"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o1e67"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w5sh6"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -68,8 +68,8 @@ offset_top = 977.0
 offset_right = 1916.0
 offset_bottom = 1083.0
 theme = ExtResource("6_w5sh6")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_ycay6")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_bsy20")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ycay6")
 
 [node name="TextureRect" type="TextureRect" parent="VersionNotes"]
 layout_mode = 0
@@ -102,8 +102,8 @@ offset_top = 868.0
 offset_right = 1917.0
 offset_bottom = 974.0
 theme = ExtResource("7_sqelc")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_w5sh6")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_o1e67")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_w5sh6")
 
 [node name="TextureRect" type="TextureRect" parent="Credits"]
 layout_mode = 0

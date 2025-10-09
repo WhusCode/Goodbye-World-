@@ -58,7 +58,19 @@ theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center][color=indian_red]Goodbye, World! - Version Notes[/color][/center]
 
-[center][color=indian_red] . . . Version 3.2 (current) . . . [/color][/center]
+[center][color=indian_red] . . . Version 5.0 (current) . . . [/color][/center]
+[center][color=rosy_brown] Boss Enemy Added [/color][/center]
+[center][color=rosy_brown] Pre-Boss Dialogue Implemented [/color][/center]
+[center][color=rosy_brown] Post-Boss Dialogue Implemented [/color][/center]
+[center][color=rosy_brown] Player and Enemy Healthbars Implemented [/color][/center]
+
+[center][color=indian_red] . . . Version 4.0 . . . [/color][/center]
+[center][color=rosy_brown] Forest Level Design Completed [/color][/center]
+[center][color=rosy_brown] Forest Custom Tiles Added [/color][/center]
+[center][color=rosy_brown] Enemy Sprites Updated [/color][/center]
+[center][color=rosy_brown] Intro Dialogue Implemented [/color][/center]
+
+[center][color=indian_red] . . . Version 3.2 . . . [/color][/center]
 [center][color=rosy_brown] Placeholder Audio Implemented [/color][/center]
 [center][color=rosy_brown] Level Clipping Fixed [/color][/center]
 [center][color=rosy_brown] Settings with Audio Slider Implemented [/color][/center]
